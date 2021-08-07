@@ -1,4 +1,26 @@
-  $clr-btn:  #ff79da 0%, #9356dc 100%;
+@font-face {
+    font-family: 'robotoregular';
+    src: url('font/roboto-regular-webfont.woff2') format('woff2'),
+         url('font/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'shrikhandregular';
+    src: url('font/shrikhand-regular-webfont.woff2') format('woff2'),
+         url('font/shrikhand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+$clr-btn:  #ff79da 0%, #9356dc 100%;
   $clr-btnc: rgb(243, 241, 241);
   $clr-icn:rgb(95, 95, 95);
   $clr-prim:#39e2b2;
