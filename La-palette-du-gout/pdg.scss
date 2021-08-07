@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'robotoregular';
-    src: url('roboto-regular-webfont.woff2') format('woff2'),
-         url('roboto-regular-webfont.woff') format('woff');
+    src: url('font/roboto-regular-webfont.woff2') format('woff2'),
+         url('font/roboto-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -222,7 +222,7 @@ body {
                     font-weight: 500;
                     color: $clr-icn;
                     font-size: 16px;
-                    margin: 4px 0px 2px 10px;
+                    margin: 10px 0px 2px 10px;
                 }
 
                 &__prc{
@@ -254,7 +254,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 position: relative;
-                bottom: 4%;
+                bottom: -1%;
                 transform: rotate(-360deg);
              }
     } 
@@ -307,7 +307,7 @@ body {
                 font-weight: 500;
                 color: $clr-icn;
                 font-size: 16px;
-                margin: 4px 0px 2px 10px;
+                margin: 10px 0px 2px 10px;
               }
 
              &__prc2{
@@ -340,7 +340,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 position: relative;
-                bottom: 4%;
+                bottom: -1%;
                 transform: rotate(-360deg);
             }
     }
@@ -402,7 +402,7 @@ body {
                 font-weight: 500;
                 color: $clr-icn;
                 font-size: 16px;
-                margin: 4px 0px 2px 10px;
+                margin: 10px 0px 2px 10px;
                 
                 
                  
@@ -444,7 +444,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 position: relative;
-                bottom: 4%;
+                bottom: -1%;
                 transform: rotate(-360deg);
                  
 
@@ -455,12 +455,12 @@ body {
     .entrmn__3__sub{
         &__wd{
             position: relative;
-            right: 14px;
+            right: 29px;
 
         }
         &__dw{
             position: relative;
-            right: 57px;
+            right: 48px;
             opacity: 0;
         }
     }
@@ -476,6 +476,7 @@ body {
                 opacity: 1;
             }
         }
+
         .entrmn__3__prc3{
             transform:translateX(-270%);
             transition:transform 280ms ease-in 50ms;
@@ -554,7 +555,7 @@ body {
             &__fbh{
                 width: 250px;
                 font-family: $ftfm;
-                margin: 3px 0px 2px 10px;
+                margin: 10px 0px 2px 10px;
              }
 
             &__lgm{
@@ -568,12 +569,12 @@ body {
                 font-weight: 500;
                 color: $clr-icn;
                 font-size: 16px;
-                margin:4px 0px 2px 7px;
+                margin:10px 0px 2px 7px;
               }
 
             &__prc{ 
                   position: relative;
-                  left:-2%;
+                  left:-4%;
                   color: black;
                   height: 15px;
                   width: 26px;
@@ -587,7 +588,7 @@ body {
                 justify-content:center;
                 align-items: center;
                 left:101%;
-                bottom:66%;
+                bottom:75%;
                 width: 80px;
                 border:2px solid $clr-prim ;
                 border-top-right-radius: 20px;
@@ -602,18 +603,21 @@ body {
                 justify-content: center;
                 align-items: center;
                 position: relative;
-                bottom: 4%;
+                bottom: -3%;
                 transform: rotate(-360deg);
              }
 
     }
 
     .plt__1__sub{
-         
+        &__wd {
+            position: relative;
+            right: 19px;
+        }
         &__dw{
             opacity: 0;
             position: relative;
-            left: -60px;
+            left: -45px;
         }
     }
 
@@ -674,7 +678,7 @@ body {
                         font-weight: 500;
                         color: $clr-icn;
                         font-size: 16px;
-                        margin:3px 0px 2px 10px;
+                        margin:10px 0px 2px 10px;
                     }
 
                     &__prc2{
@@ -691,7 +695,7 @@ body {
                         justify-content:center;
                         align-items: center;
                         left:101%;
-                        bottom:72%;
+                        bottom:75%;
                         width: 80px;
                         border:2px solid $clr-prim ;
                         border-top-right-radius: 20px;
@@ -706,17 +710,21 @@ body {
                         justify-content: center;
                         align-items: center;
                         position: relative;
-                        bottom: 4%;
+                        bottom: -1%;
                         transform: rotate(-360deg);
                      }
         
 
             }
         .plt__2__sub{
+            &__wd{
+                position: relative;
+                right:20px;
+            }
              
             &__dw{
                 position: relative;
-                right: 51px;
+                right: 38px;
                 opacity: 0;
             }
         }
@@ -765,7 +773,7 @@ body {
                         &__fdt{
                              width: 250px;
                             font-family: $ftfm;
-                            margin: 12px 0px 2px 10px;
+                            margin: 10px 0px 2px 10px;
                         }
             
                         &__agr{
@@ -777,7 +785,7 @@ body {
                             font-weight: 500;
                             color: $clr-icn;
                             font-size: 16px;
-                            margin:7px 0px 2px 10px;
+                            margin:10px 0px 2px 10px;
                         }
                         &__prc3{
                               color: black;
@@ -808,7 +816,7 @@ body {
                             justify-content: center;
                             align-items: center;
                             position: relative;
-                            bottom: 4%;
+                            bottom: -1%;
                             transform: rotate(-360deg);
                          }
             
@@ -909,7 +917,7 @@ body {
                 font-weight: 500;
                 color: $clr-icn;
                 font-size: 16px;
-                margin:6px 0px 2px 10px;
+                margin:10px 0px 2px 10px;
             } 
 
             &__prc{
@@ -926,7 +934,7 @@ body {
                 justify-content:center;
                 align-items: center;
                 left:101%;
-                bottom:92%;
+                bottom:91%;
                 width: 80px;
                 border:2px solid $clr-prim ;
                 border-top-right-radius: 20px;
@@ -941,7 +949,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 position: relative;
-                bottom: 4%;
+                bottom: -1%;
                 transform: rotate(-360deg);
             }
         }
@@ -997,7 +1005,7 @@ body {
                         font-weight: 500;
                         color: $clr-icn;
                         font-size: 16px;
-                        margin:6px 0px 2px 10px;
+                        margin:10px 0px 2px 10px;
                     }
 
                     &__prc2{
@@ -1029,7 +1037,7 @@ body {
                         justify-content: center;
                         align-items: center;
                         position: relative;
-                        bottom: 4%;
+                        bottom: -1%;
                         transform: rotate(-360deg);
                      }
          
@@ -1060,24 +1068,24 @@ body {
         }
         .dst__2:hover{
 
-            .dst__2__sub1{
-            &__wd{
-                opacity: 0;
-            }
-            &__dw{
-                opacity: 1;
-            }
+            // .dst__2__sub1{
+            // &__wd{
+            //     opacity: 0;
+            // }
+            // &__dw{
+            //     opacity: 1;
+            // }
 
-            }
-            .dst__2__sub2{
-                &__wd{
-                    opacity: 0;
+            // }
+            // .dst__2__sub2{
+            //     &__wd{
+            //         opacity: 0;
 
-                }
-                &__dw{
-                    opacity: 1;
-                }
-            }
+            //     }
+            //     &__dw{
+            //         opacity: 1;
+            //     }
+            // }
         
             .dst__2__prc2{
                 transform:translateX(-270%);
@@ -1127,7 +1135,7 @@ body {
                         font-weight: 500;
                         color: $clr-icn;
                         font-size: 16px;
-                        margin:6px 0px 2px 10px;
+                        margin:10px 0px 2px 10px;
                     }
         
                     &__prc3{
@@ -1161,7 +1169,7 @@ body {
                         justify-content: center;
                         align-items: center;
                         position: relative;
-                        bottom: 4%;
+                        bottom: -1%;
                         transform: rotate(-360deg);
                      }
 
@@ -1169,9 +1177,14 @@ body {
             }
 
         .dst__3__sub{
+            &__wd{
+                position:relative;
+                right: 21px;
+
+            }
             &__dw{
                 position: relative;
-                right:67px;
+                right:46px;
                 opacity: 0;
             }
         }
