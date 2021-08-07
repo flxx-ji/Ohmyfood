@@ -91,7 +91,7 @@ body {
 }
 
 .title__name {
-  font-family: "shrikhandregular";
+  font-family: "shrikhand";
   font-size: 35px;
   margin-right: 57px;
 }
@@ -129,7 +129,7 @@ body {
 }
 
 .carte__mennam__namresto {
-  font-family: "shrikhandregular";
+  font-family: "shrikhand";
   font-size: 30px;
   margin-left: 20px;
 }
@@ -373,7 +373,6 @@ body {
 }
 
 .entrmn__2__bhc {
-  display: block;
   width: 290px;
   font-family: "robotoregular";
   margin: 10px 0px 2px 10px;
@@ -393,7 +392,7 @@ body {
   font-family: "robotoregular";
   font-weight: 500;
   color: #5f5f5f;
-  font-size: 12px;
+  font-size: 16px;
   margin: 10px 0px 2px 10px;
 }
 
@@ -416,7 +415,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   left: 101%;
-  bottom: 84%;
+  bottom: 75%;
   width: 80px;
   border: 2px solid #39e2b2;
   border-top-right-radius: 20px;
@@ -673,7 +672,6 @@ body {
 }
 
 .plt__1__prp {
-  display: none;
   width: 346px;
   font-family: "robotoregular";
   margin: 10px 0px 2px 10px;
@@ -1513,7 +1511,7 @@ body {
 
 .infos__nom {
   margin: 30px 0px 20px 30px;
-  font-family: "shrikhandregular";
+  font-family: "shrikhand";
   font-size: 20px;
 }
 
