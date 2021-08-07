@@ -91,7 +91,7 @@ body {
 }
 
 .title__name {
-  font-family: shrikhand;
+  font-family: "shrikhand";
   font-size: 35px;
   margin-right: 57px;
 }
@@ -129,7 +129,7 @@ body {
 }
 
 .carte__mennam__namresto {
-  font-family: shrikhand;
+  font-family: "shrikhand";
   font-size: 30px;
   margin-left: 20px;
 }
@@ -192,7 +192,7 @@ body {
   margin: 0px 0px 3px 20px;
   color: #5f5f5f;
   font-size: 20px;
-  font-family: roboto;
+  font-family: "roboto";
   font-weight: 600;
   color: #5f5f5f;
 }
@@ -251,7 +251,7 @@ body {
 
 .entrmn__1__tdt {
   width: 250px;
-  font-family: roboto;
+  font-family: "roboto";
   margin: 10px 0px 2px 10px;
 }
 
@@ -266,7 +266,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: roboto;
+  font-family: "roboto";
   font-weight: 500;
   color: #5f5f5f;
   font-size: 16px;
@@ -374,7 +374,7 @@ body {
 
 .entrmn__2__bhc {
   width: 290px;
-  font-family: roboto;
+  font-family: "roboto";
   margin: 10px 0px 2px 10px;
 }
 
@@ -389,7 +389,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: roboto;
+  font-family: "roboto";
   font-weight: 500;
   color: #5f5f5f;
   font-size: 16px;
@@ -496,7 +496,7 @@ body {
 
 .entrmn__3__vdc {
   width: 290px;
-  font-family: roboto;
+  font-family: "roboto";
   margin: 10px 0px 2px 10px;
 }
 
@@ -511,7 +511,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: roboto;
+  font-family: "roboto";
   font-weight: 500;
   color: #5f5f5f;
   font-size: 16px;
@@ -614,7 +614,7 @@ body {
   margin: 0px 0px 3px 20px;
   color: #5f5f5f;
   font-size: 20px;
-  font-family: roboto;
+  font-family: "roboto";
   font-weight: 600;
   color: #5f5f5f;
 }
@@ -673,7 +673,7 @@ body {
 
 .plt__1__prp {
   width: 346px;
-  font-family: roboto;
+  font-family: "roboto";
   margin: 10px 0px 2px 10px;
 }
 
@@ -688,7 +688,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: roboto;
+  font-family: "roboto";
   font-weight: 500;
   color: #5f5f5f;
   font-size: 16px;
@@ -815,7 +815,7 @@ body {
 
 .plt__2__lr {
   width: 250px;
-  font-family: roboto;
+  font-family: "roboto";
   margin: 10px 0px 2px 10px;
 }
 
@@ -827,7 +827,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: roboto;
+  font-family: "roboto";
   font-weight: 500;
   color: #5f5f5f;
   font-size: 16px;
@@ -935,7 +935,7 @@ body {
 
 .plt__3__cba {
   width: 250px;
-  font-family: roboto;
+  font-family: "roboto";
   margin: 10px 0px 2px 10px;
 }
 
@@ -950,7 +950,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: roboto;
+  font-family: "roboto";
   font-weight: 500;
   color: #5f5f5f;
   font-size: 16px;
@@ -1054,7 +1054,7 @@ body {
   margin: 0px 0px 3px 20px;
   color: #5f5f5f;
   font-size: 20px;
-  font-family: roboto;
+  font-family: "roboto";
   font-weight: 600;
   color: #5f5f5f;
 }
@@ -1113,7 +1113,7 @@ body {
 
 .dst__1__fdd {
   width: 250px;
-  font-family: roboto;
+  font-family: "roboto";
   margin: 10px 0px 2px 10px;
 }
 
@@ -1128,7 +1128,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: roboto;
+  font-family: "roboto";
   font-weight: 500;
   color: #5f5f5f;
   font-size: 16px;
@@ -1236,7 +1236,7 @@ body {
 
 .dst__2__cb {
   width: 250px;
-  font-family: roboto;
+  font-family: "roboto";
   margin: 10px 0px 2px 10px;
 }
 
@@ -1251,7 +1251,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: roboto;
+  font-family: "roboto";
   font-weight: 500;
   color: #5f5f5f;
   font-size: 16px;
@@ -1359,7 +1359,7 @@ body {
 
 .dst__3__trm {
   width: 250px;
-  font-family: roboto;
+  font-family: "roboto";
   margin: 10px 0px 2px 10px;
 }
 
@@ -1374,7 +1374,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: roboto;
+  font-family: "roboto";
   font-weight: 500;
   color: #5f5f5f;
   font-size: 16px;
@@ -1535,7 +1535,7 @@ body {
 
 .infos__prop__pr {
   margin-left: 15px;
-  font-family: roboto;
+  font-family: "roboto";
   font-size: 18px;
   font-weight: 600;
 }
@@ -1563,21 +1563,21 @@ body {
 .infos__part__dp {
   margin-left: 15px;
   margin-bottom: 5px;
-  font-family: roboto;
+  font-family: "roboto";
   font-size: 18px;
   font-weight: 600;
 }
 
 .infos__Ment {
   margin-left: 32px;
-  font-family: roboto;
+  font-family: "roboto";
   font-size: 18px;
   font-weight: 300;
 }
 
 .infos__cont {
   margin: 5px 0px 0px  32px;
-  font-family: roboto;
+  font-family: "roboto";
   font-size: 18px;
   font-weight: 300;
   color: white;
