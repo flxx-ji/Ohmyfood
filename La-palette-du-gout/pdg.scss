@@ -1,11 +1,27 @@
-$clr-btn:rgb(253, 82, 210);
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'shrikhandregular';
+    src: url('font/shrikhand-regular-webfont.woff2') format('woff2'),
+         url('font/shrikhand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}$clr-btn:rgb(253, 82, 210);
   $clr-btnc: rgb(243, 241, 241);
   $clr-icn:rgb(95, 95, 95);
   $clr-prim:#39e2b2;
   $clr-new: #059e73;
   $bsw:6px 6px 6px rgb(167, 165, 165);
-  $ftfm:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
-
+  $ftfm:roboto;
   @keyframes slide{
     from {
         transform:translateY(-31px);
@@ -361,9 +377,8 @@ body {
         background: white;
         animation:slide .9s ease-in;
         cursor: pointer;
-        white-space: nowrap;
-        text-overflow: ellipsis;
         overflow: hidden;
+         
          
         
         
@@ -388,9 +403,7 @@ body {
                 color: $clr-icn;
                 font-size: 16px;
                 margin: 4px 0px 2px 10px;
-                white-space:nowrap;
-                text-overflow: ellipsis;
-                // overflow: hidden;
+                
                 
                  
                 }
@@ -420,6 +433,7 @@ body {
                 color:white;
                 background:$clr-prim;
                 font-size: 25px;
+                 
                 
                   
             }
@@ -432,12 +446,36 @@ body {
                 position: relative;
                 bottom: 4%;
                 transform: rotate(-360deg);
+                 
 
             }
 
     }
 
+    .entrmn__3__sub{
+        &__wd{
+            position: relative;
+            right: 14px;
+
+        }
+        &__dw{
+            position: relative;
+            right: 57px;
+            opacity: 0;
+        }
+    }
+
     .entrmn__3:hover{
+
+
+        .entrmn__3__sub{
+            &__wd{
+                opacity: 0;
+            }
+            &__dw{
+                opacity: 1;
+            }
+        }
         .entrmn__3__prc3{
             transform:translateX(-270%);
             transition:transform 280ms ease-in 50ms;
@@ -524,7 +562,7 @@ body {
                 justify-content: center;
                 position: relative;
                 top: 9px;
-                width: 350px;
+                width: 360px;
                 justify-content: space-between;
                 font-family: $ftfm;
                 font-weight: 500;
@@ -570,8 +608,26 @@ body {
 
     }
 
+    .plt__1__sub{
+         
+        &__dw{
+            opacity: 0;
+            position: relative;
+            left: -60px;
+        }
+    }
+
 
     .plt__1:hover{
+
+        .plt__1__sub{
+            &__wd{
+                opacity: 0;
+            }
+            &__dw{
+                opacity: 1;
+            }
+        }
         
         .plt__1__prc{
             transform:translateX(-270%);
@@ -656,8 +712,25 @@ body {
         
 
             }
+        .plt__2__sub{
+             
+            &__dw{
+                position: relative;
+                right: 51px;
+                opacity: 0;
+            }
+        }
 
             .plt__2:hover{
+
+            .plt__2__sub{
+                &__wd{
+                    opacity: 0;
+                }
+                &__dw{
+                    opacity: 1;
+                }
+            }
         
                 .plt__2__prc2{
                     transform:translateX(-270%);
@@ -909,9 +982,10 @@ body {
                 overflow: hidden;
                 cursor: pointer;
                     &__mce{
-                         width: 305px;
+                         width: 320px;
                         font-family: $ftfm;
                         margin: 10px 0px 2px 10px;
+                         
                     }
 
                      &__gvm{
@@ -961,8 +1035,49 @@ body {
          
  
         }
-
+        .dst__2__sub1{
+            &__wd{
+                position: relative;
+                right: 5px;
+            }
+            &__dw{
+                position:relative;
+                right:33px;
+                opacity: 0;
+            }
+        }
+        
+        .dst__2__sub2{
+            &__wd{
+                position: relative;
+                right: 19px;
+            }
+            &__dw{
+                position:relative;
+                right:38px;
+                opacity: 0;
+            }
+        }
         .dst__2:hover{
+
+            .dst__2__sub1{
+            &__wd{
+                opacity: 0;
+            }
+            &__dw{
+                opacity: 1;
+            }
+
+            }
+            .dst__2__sub2{
+                &__wd{
+                    opacity: 0;
+
+                }
+                &__dw{
+                    opacity: 1;
+                }
+            }
         
             .dst__2__prc2{
                 transform:translateX(-270%);
@@ -1006,7 +1121,7 @@ body {
                     &__aln{
                         display: flex;
                         justify-content: center;
-                        width: 340px;
+                        width: 352px;
                         justify-content: space-between;
                         font-family: $ftfm;
                         font-weight: 500;
@@ -1016,6 +1131,8 @@ body {
                     }
         
                     &__prc3{
+                          position: relative;
+                          right:14px;
                           color: black;
                           height: 15px;
                           width: 26px;
@@ -1051,7 +1168,24 @@ body {
 
             }
 
+        .dst__3__sub{
+            &__dw{
+                position: relative;
+                right:67px;
+                opacity: 0;
+            }
+        }
+
             .dst__3:hover{
+
+            .dst__3__sub{
+                &__wd{
+                    opacity: 0;
+                }
+                &__dw{
+                    opacity: 1;
+                }
+            }
         
                 .dst__3__prc3{
                     transform:translateX(-270%);
