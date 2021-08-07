@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('font/roboto-regular-webfont.woff2') format('woff2'),
+         url('font/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 @font-face {
     font-family: 'shrikhandregular';
@@ -12,7 +21,7 @@
   $clr-prim:#39e2b2;
   $clr-new: #059e73;
   $bsw:6px 6px 6px rgb(167, 165, 165);
-  $ftfm:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  $ftfm:roboto;
 
 
   @keyframes slide{
@@ -206,7 +215,7 @@ body {
                 font-weight: 500;
                 color: $clr-icn;
                 font-size: 16px;
-                margin: 4px 0px 2px 10px;
+                margin: 10px 0px 2px 10px;
               }
 
             &__prc{
@@ -237,7 +246,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 position: relative;
-                bottom: 4%;
+                bottom: -1%;
                 transform: rotate(-360deg);
             }
  
@@ -247,12 +256,13 @@ body {
      .entrmn__1__sub{
          &__wd{
              position: relative;
+             right:14px;
              
          }
 
          &__dw{
              position:relative;
-             right: 49px;
+             right: 34px;
              opacity: 0;
          }
      }
@@ -320,7 +330,7 @@ body {
                 font-weight: 500;
                 color: $clr-icn;
                 font-size: 16px;
-                margin: 4px 0px 2px 10px;
+                margin: 10px 0px 2px 10px;
               }
 
             &__prc2{
@@ -350,7 +360,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 position: relative;
-                bottom: 4%;
+                bottom: -1%;
                 transform: rotate(-360deg);
             }
     }
@@ -402,7 +412,7 @@ body {
                 font-weight: 500;
                 color: $clr-icn;
                 font-size: 16px;
-                margin: 4px 0px 2px 10px;
+                margin: 10px 0px 2px 10px;
               }
 
             &__prc3{
@@ -432,7 +442,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 position: relative;
-                bottom: 4%;
+                bottom: -1%;
                 transform: rotate(-360deg);
             }
 
@@ -485,7 +495,7 @@ body {
                 font-weight: 500;
                 color: $clr-icn;
                 font-size: 16px;
-                margin: 4px 0px 2px 10px;
+                margin: 10px 0px 2px 10px;
               }
 
             &__prc4{
@@ -515,7 +525,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 position: relative;
-                bottom: 4%;
+                bottom: -1%;
                 transform: rotate(-360deg);
             }
 
@@ -607,7 +617,7 @@ body {
                 font-weight: 500;
                 color: $clr-icn;
                 font-size: 16px;
-                margin:-0px 0px 2px 10px;
+                margin:4px 0px 2px 10px;
               }
 
             &__prc{
@@ -638,7 +648,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 position: relative;
-                bottom: 4%;
+                bottom: -1%;
                 transform: rotate(-360deg);
             }
 
@@ -688,7 +698,7 @@ body {
                         font-weight: 500;
                         color: $clr-icn;
                         font-size: 16px;
-                        margin:3px 0px 2px 10px;
+                        margin:10px 0px 2px 10px;
                       }
         
                     &__prc2{
@@ -719,7 +729,7 @@ body {
                         justify-content: center;
                         align-items: center;
                         position: relative;
-                        bottom: 4%;
+                        bottom: -1%;
                         transform: rotate(-360deg);
                     }
             }
@@ -761,7 +771,7 @@ body {
                              
                             width: 250px;
                             font-family: $ftfm;
-                            margin: 12px 0px 2px 10px;
+                            margin: 10px 0px 2px 10px;
                             
                         }
             
@@ -774,7 +784,7 @@ body {
                             font-weight: 500;
                             color: $clr-icn;
                             font-size: 16px;
-                            margin:7px 0px 2px 10px;
+                            margin:10px 0px 2px 10px;
                         }
             
                         &__prc3{
@@ -791,7 +801,7 @@ body {
                             justify-content:center;
                             align-items: center;
                             left:101%;
-                            bottom:82%;
+                            bottom:74%;
                             width: 80px;
                             border:2px solid $clr-prim ;
                             border-top-right-radius: 20px;
@@ -806,7 +816,7 @@ body {
                             justify-content: center;
                             align-items: center;
                             position: relative;
-                            bottom: 4%;
+                            bottom: -1%;
                             transform: rotate(-360deg);
                         }
 
@@ -904,7 +914,7 @@ body {
                 font-weight: 500;
                 color: $clr-icn;
                 font-size: 16px;
-                margin:6px 0px 2px 10px;
+                margin:10px 0px 2px 10px;
                 } 
 
             &__prc{
@@ -921,7 +931,7 @@ body {
                 justify-content:center;
                 align-items: center;
                 left:101%;
-                bottom:90%;
+                bottom:92%;
                 width: 80px;
                 border:2px solid $clr-prim ;
                 border-top-right-radius: 20px;
@@ -936,7 +946,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 position: relative;
-                bottom: 4%;
+                bottom: -1%;
                 transform: rotate(-360deg);
             }
 
@@ -947,11 +957,11 @@ body {
         .dst__1__sub{
             &__wd{
                 position: relative;
-                right:14px
+                right:32px
             }
             &__dw{
                 position: relative;
-                right:86px;
+                right:57px;
                 opacity: 0;
             }
         }
@@ -1045,7 +1055,7 @@ body {
                         justify-content: center;
                         align-items: center;
                         position: relative;
-                        bottom: 4%;
+                        bottom: -1%;
                         transform: rotate(-360deg);
                     }
 
@@ -1134,7 +1144,7 @@ body {
                         justify-content: center;
                         align-items: center;
                         position: relative;
-                        bottom: 4%;
+                        bottom: -1%;
                         transform: rotate(-360deg);
                     }
 
