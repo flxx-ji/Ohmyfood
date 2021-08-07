@@ -1,4 +1,12 @@
-$clr-btn:rgb(253, 82, 210);
+
+@font-face {
+    font-family: 'shrikhandregular';
+    src: url('font/shrikhand-regular-webfont.woff2') format('woff2'),
+         url('font/shrikhand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}$clr-btn:rgb(253, 82, 210);
   $clr-btnc: rgb(243, 241, 241);
   $clr-icn:rgb(95, 95, 95);
   $clr-prim:#39e2b2;
