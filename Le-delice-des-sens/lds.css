@@ -373,6 +373,7 @@ body {
 }
 
 .entrmn__2__bhc {
+  display: block;
   width: 290px;
   font-family: "robotoregular";
   margin: 10px 0px 2px 10px;
@@ -415,7 +416,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   left: 101%;
-  bottom: 75%;
+  bottom: 84%;
   width: 80px;
   border: 2px solid #39e2b2;
   border-top-right-radius: 20px;
