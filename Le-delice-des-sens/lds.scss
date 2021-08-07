@@ -212,7 +212,7 @@ body {
                 font-weight: 500;
                 color: $clr-icn;
                 font-size: 16px;
-                margin: 4px 0px 2px 10px;
+                margin: 10px 0px 2px 10px;
               }
 
             &__prc{
@@ -243,7 +243,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 position: relative;
-                bottom: 4%;
+                bottom: -1%;
                 transform: rotate(-360deg);
             }
 
@@ -298,7 +298,7 @@ body {
                 font-weight: 500;
                 color: $clr-icn;
                 font-size: 16px;
-                margin: 4px 0px 2px 10px;
+                margin: 10px 0px 2px 10px;
             }
 
             &__prc2{
@@ -328,7 +328,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 position: relative;
-                bottom: 4%;
+                bottom: -1%;
                 transform: rotate(-360deg);
             }
 
@@ -383,7 +383,7 @@ body {
                 font-weight: 500;
                 color: $clr-icn;
                 font-size: 16px;
-                margin: 4px 0px 2px 10px;
+                margin: 10px 0px 2px 10px;
             }
 
              &__prc3{
@@ -414,7 +414,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 position: relative;
-                bottom: 4%;
+                bottom: -1%;
                 transform: rotate(-360deg);
             }
 
@@ -495,7 +495,7 @@ body {
                  
                 width: 346px;
                 font-family: $ftfm;
-                margin: 8px 0px 2px 10px;
+                margin: 10px 0px 2px 10px;
                 
             }
 
@@ -508,7 +508,7 @@ body {
                 font-weight: 500;
                 color: $clr-icn;
                 font-size: 16px;
-                margin:11px 0px 2px 10px;
+                margin:10px 0px 2px 10px;
             }
 
              &__prc{
@@ -525,7 +525,7 @@ body {
                 justify-content:center;
                 align-items: center;
                 left:101%;
-                bottom:81%;
+                bottom:76%;
                 width: 80px;
                 border:2px solid $clr-prim ;
                 border-top-right-radius: 20px;
@@ -540,18 +540,18 @@ body {
                 justify-content: center;
                 align-items: center;
                 position: relative;
-                bottom: 4%;
+                bottom: -1%;
                 transform: rotate(-360deg);
             }
     }
     .plt__1__sub{
         &__wd{
             position: relative;
-            right:5px;
+            right:1px;
         }
         &__dw{
             position: relative;
-            right:56px;
+            right:24px;
             opacity: 0;
         }
     }
@@ -568,6 +568,7 @@ body {
                 opacity: 1;
             }
         }
+
         .plt__1__prc{
             transform:translateX(-270%);
             transition:transform 280ms ease-in 50ms;
@@ -612,7 +613,7 @@ body {
             font-weight: 500;
             color: $clr-icn;
             font-size: 16px;
-            margin:3px 0px 2px 10px;
+            margin:10px 0px 2px 10px;
             }
 
             &__prc2{
@@ -644,7 +645,7 @@ body {
             justify-content: center;
             align-items: center;
             position: relative;
-            bottom: 4%;
+            bottom: -1%;
             transform: rotate(-360deg);
         }
 
@@ -685,7 +686,7 @@ body {
                     
                 width: 250px;
                 font-family: $ftfm;
-                margin: 12px 0px 2px 10px;
+                margin: 10px 0px 2px 10px;
                 
             }
 
@@ -698,7 +699,7 @@ body {
                 font-weight: 500;
                 color: $clr-icn;
                 font-size: 16px;
-                margin:7px 0px 2px 10px;
+                margin:10px 0px 2px 10px;
                 }
 
             &__prc3{
@@ -731,7 +732,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 position: relative;
-                bottom: 4%;
+                bottom: -1%;
                 transform: rotate(-360deg);
             }
 
@@ -829,7 +830,7 @@ body {
                 font-weight: 500;
                 color: $clr-icn;
                 font-size: 16px;
-                margin:6px 0px 2px 10px;
+                margin:10px 0px 2px 10px;
                 } 
 
             &__prc{
@@ -861,7 +862,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 position: relative;
-                bottom: 4%;
+                bottom: -1%;
                 transform: rotate(-360deg);
             }
 
@@ -916,7 +917,7 @@ body {
                         font-weight: 500;
                         color: $clr-icn;
                         font-size: 16px;
-                        margin:6px 0px 2px 10px;
+                        margin:10px 0px 2px 10px;
                     }
         
                     &__prc2{
@@ -948,7 +949,7 @@ body {
                         justify-content: center;
                         align-items: center;
                         position: relative;
-                        bottom: 4%;
+                        bottom: -1%;
                         transform: rotate(-360deg);
                     }
 
@@ -1005,7 +1006,7 @@ body {
                     font-weight: 500;
                     color: $clr-icn;
                     font-size: 16px;
-                    margin:6px 0px 2px 10px;
+                    margin:10px 0px 2px 10px;
                 }
     
                 &__prc3{
@@ -1037,7 +1038,7 @@ body {
                     justify-content: center;
                     align-items: center;
                     position: relative;
-                    bottom: 4%;
+                    bottom: -1%;
                     transform: rotate(-360deg);
                 }
 
