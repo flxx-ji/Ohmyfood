@@ -1234,7 +1234,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 340px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 387px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1246,9 +1250,10 @@ body {
 }
 
 .dst__1__prc {
+  position: relative;
+  left: -11%;
   color: black;
   height: 15px;
-  width: 26px;
   margin-left: 10px;
   font-weight: 700;
 }
@@ -1299,8 +1304,16 @@ body {
 
 .dst .dst__1__sub__dw {
   position: relative;
-  right: 49px;
+  right: 86px;
   opacity: 0;
+}
+
+.dst .dst__1:hover .dst__1__sub__wd {
+  opacity: 0;
+}
+
+.dst .dst__1:hover .dst__1__sub__dw {
+  opacity: 1;
 }
 
 .dst .dst__1:hover .dst__1__prc {

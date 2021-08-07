@@ -889,7 +889,8 @@ body {
             &__gcs{
                 display: flex;
                 justify-content: center;
-                width: 340px;
+                flex-direction: row;
+                width: 387px;
                 justify-content: space-between;
                 font-family: $ftfm;
                 font-weight: 500;
@@ -899,9 +900,10 @@ body {
                 } 
 
             &__prc{
+                  position: relative;
+                  left: -11%;
                   color: black;
                   height: 15px;
-                  width: 26px;
                   margin-left: 10px;
                   font-weight:700;
             }
@@ -941,12 +943,21 @@ body {
             }
             &__dw{
                 position: relative;
-                right:49px;
+                right:86px;
                 opacity: 0;
             }
         }
 
         .dst__1:hover{
+
+            .dst__1__sub{
+                &__wd{
+                    opacity: 0;
+                }
+                &__dw{
+                    opacity:1;
+                }
+            }
             .dst__1__prc{
                 transform:translateX(-270%);
                 transition:transform 280ms ease-in 50ms;
