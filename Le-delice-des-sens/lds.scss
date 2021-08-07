@@ -27,6 +27,7 @@ $clr-btn:rgb(253, 82, 210);
   $clr-new: #059e73;
   $bsw:6px 6px 6px rgb(167, 165, 165);
   $ftfm:roboto;
+  $ftfm2:shrikhand;
 
 @keyframes slide{
     from {
@@ -70,7 +71,7 @@ body {
         }
     }
     &__name {
-        font-family: 'shrikhand';
+        font-family: $ftfm2;
         font-size: 35px;
         margin-right: 57px;
     }
@@ -106,7 +107,7 @@ body {
         margin-top: -52px;
 
         &__namresto{
-            font-family: 'shrikhand';
+            font-family: $ftfm2;
             font-size: 30px;
             margin-left: 20px;
            
