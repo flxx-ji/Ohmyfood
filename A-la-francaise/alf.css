@@ -270,7 +270,7 @@ body {
   font-weight: 500;
   color: #5f5f5f;
   font-size: 16px;
-  margin: 4px 0px 2px 10px;
+  margin: 10px 0px 2px 10px;
 }
 
 .entrmn__1__prc {
@@ -393,7 +393,7 @@ body {
   font-weight: 500;
   color: #5f5f5f;
   font-size: 16px;
-  margin: 4px 0px 2px 10px;
+  margin: 10px 0px 2px 10px;
 }
 
 .entrmn__2__prc2 {
@@ -515,7 +515,7 @@ body {
   font-weight: 500;
   color: #5f5f5f;
   font-size: 16px;
-  margin: 4px 0px 2px 10px;
+  margin: 10px 0px 2px 10px;
 }
 
 .entrmn__3__prc3 {
@@ -674,7 +674,7 @@ body {
 .plt__1__csj {
   width: 250px;
   font-family: roboto;
-  margin: 3px 0px 2px 10px;
+  margin: 10px 0px 2px 10px;
 }
 
 .plt__1__pdp {
@@ -692,7 +692,7 @@ body {
   font-weight: 500;
   color: #5f5f5f;
   font-size: 16px;
-  margin: 4px 0px 2px 7px;
+  margin: 10px 0px 2px 7px;
 }
 
 .plt__1__prc {
@@ -715,7 +715,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   left: 101%;
-  bottom: 67%;
+  bottom: 75%;
   width: 80px;
   border: 2px solid #39e2b2;
   border-top-right-radius: 20px;
@@ -744,22 +744,14 @@ body {
 
 .plt .plt__1__sub__wd {
   position: relative;
-  right: 38%;
+  right: 74%;
   width: 0px;
 }
 
 .plt .plt__1__sub__dw {
   position: relative;
-  right: 44px;
+  right: 60px;
   opacity: 0;
-}
-
-.plt .plt__1:hover .plt__1__sub__wd {
-  opacity: 0;
-}
-
-.plt .plt__1:hover .plt__1__sub__dw {
-  opacity: 1;
 }
 
 .plt .plt__1:hover .plt__1__prc {
@@ -832,7 +824,7 @@ body {
   font-weight: 500;
   color: #5f5f5f;
   font-size: 16px;
-  margin: 3px 0px 2px 10px;
+  margin: 10px 0px 2px 10px;
 }
 
 .plt__2__prc2 {
@@ -884,21 +876,13 @@ body {
 
 .plt .plt__2__sub__wd {
   position: relative;
-  right: 14px;
+  right: 29px;
 }
 
 .plt .plt__2__sub__dw {
   position: relative;
   right: 38px;
   opacity: 0;
-}
-
-.plt .plt__2:hover .plt__2__sub__wd {
-  opacity: 0;
-}
-
-.plt .plt__2:hover .plt__2__sub__dw {
-  opacity: 1;
 }
 
 .plt .plt__2:hover .plt__2__prc2 {
@@ -1026,21 +1010,13 @@ body {
 
 .plt__3 .plt__3__sub__wd {
   position: relative;
-  right: 14px;
+  right: 27px;
 }
 
 .plt__3 .plt__3__sub__dw {
   position: relative;
   right: 49px;
   opacity: 0;
-}
-
-.plt .plt__3:hover .plt__3__sub__wd {
-  opacity: 0;
-}
-
-.plt .plt__3:hover .plt__3__sub__dw {
-  opacity: 1;
 }
 
 .plt .plt__3:hover .plt__3__prc3 {
