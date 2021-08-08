@@ -254,7 +254,7 @@ body {
 .entrmn__1__tdt {
   width: 250px;
   font-family: "robotoregular";
-  margin: 10px 0px 2px 10px;
+  margin: 15px 0px 2px 10px;
   font-size: 16px;
   font-weight: bold;
 }
@@ -379,7 +379,8 @@ body {
 .entrmn__2__bhc {
   width: 290px;
   font-family: "robotoregular";
-  margin: 10px 0px 2px 10px;
+  margin: 15px 0px 2px 10px;
+  font-size: 16px;
 }
 
 .entrmn__2__acc2 {
@@ -394,10 +395,10 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-family: "robotoregular";
-  font-weight: 500;
+  font-weight: 700;
   color: #5f5f5f;
-  font-size: 16px;
-  margin: 10px 0px 2px 10px;
+  font-size: 15px;
+  margin: 5px 0px 2px 10px;
 }
 
 .entrmn__2__prc2 {
@@ -501,7 +502,8 @@ body {
 .entrmn__3__vdc {
   width: 290px;
   font-family: "robotoregular";
-  margin: 10px 0px 2px 10px;
+  font-size: 16px;
+  margin: 15px 0px 2px 10px;
 }
 
 .entrmn__3__acc3 {
@@ -516,10 +518,10 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-family: "robotoregular";
-  font-weight: 500;
+  font-weight: 700;
   color: #5f5f5f;
-  font-size: 16px;
-  margin: 10px 0px 2px 10px;
+  font-size: 15px;
+  margin: 5px 0px 2px 10px;
 }
 
 .entrmn__3__prc3 {
@@ -678,7 +680,8 @@ body {
 .plt__1__prp {
   width: 346px;
   font-family: "robotoregular";
-  margin: 10px 0px 2px 10px;
+  font-size: 16px;
+  margin: 15px 0px 2px 10px;
 }
 
 .plt__1__cdt {
@@ -693,10 +696,10 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-family: "robotoregular";
-  font-weight: 500;
+  font-weight: 700;
   color: #5f5f5f;
-  font-size: 16px;
-  margin: 10px 0px 2px 10px;
+  font-size: 15px;
+  margin: 5px 0px 2px 10px;
 }
 
 .plt__1__prc {
@@ -820,7 +823,8 @@ body {
 .plt__2__lr {
   width: 250px;
   font-family: "robotoregular";
-  margin: 10px 0px 2px 10px;
+  font-size: 16px;
+  margin: 15px 0px 2px 10px;
 }
 
 .plt__2__lds {
@@ -832,10 +836,10 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-family: "robotoregular";
-  font-weight: 500;
+  font-weight: 700;
   color: #5f5f5f;
-  font-size: 16px;
-  margin: 10px 0px 2px 10px;
+  font-size: 15px;
+  margin: 5px 0px 2px 10px;
 }
 
 .plt__2__prc2 {
@@ -940,7 +944,8 @@ body {
 .plt__3__cba {
   width: 250px;
   font-family: "robotoregular";
-  margin: 10px 0px 2px 10px;
+  font-size: 16px;
+  margin: 15px 0px 2px 10px;
 }
 
 .plt__3__pdp {
@@ -955,10 +960,10 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-family: "robotoregular";
-  font-weight: 500;
+  font-weight: 700;
   color: #5f5f5f;
-  font-size: 16px;
-  margin: 10px 0px 2px 10px;
+  font-size: 15px;
+  margin: 5px 0px 2px 10px;
 }
 
 .plt__3__prc3 {
@@ -1118,7 +1123,8 @@ body {
 .dst__1__fdd {
   width: 250px;
   font-family: "robotoregular";
-  margin: 10px 0px 2px 10px;
+  font-size: 16px;
+  margin: 15px 0px 2px 10px;
 }
 
 .dst__1__dc {
@@ -1133,10 +1139,10 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-family: "robotoregular";
-  font-weight: 500;
+  font-weight: 700;
   color: #5f5f5f;
-  font-size: 16px;
-  margin: 10px 0px 2px 10px;
+  font-size: 15px;
+  margin: 5px 0px 2px 10px;
 }
 
 .dst__1__prc {
@@ -1241,7 +1247,8 @@ body {
 .dst__2__cb {
   width: 250px;
   font-family: "robotoregular";
-  margin: 10px 0px 2px 10px;
+  font-size: 16px;
+  margin: 15px 0px 2px 10px;
 }
 
 .dst__2__rev {
@@ -1256,10 +1263,10 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-family: "robotoregular";
-  font-weight: 500;
+  font-weight: 700;
   color: #5f5f5f;
-  font-size: 16px;
-  margin: 10px 0px 2px 10px;
+  font-size: 15px;
+  margin: 5px 0px 2px 10px;
 }
 
 .dst__2__prc2 {
@@ -1364,7 +1371,8 @@ body {
 .dst__3__trm {
   width: 250px;
   font-family: "robotoregular";
-  margin: 10px 0px 2px 10px;
+  font-size: 16px;
+  margin: 15px 0px 2px 10px;
 }
 
 .dst__3__aln {
@@ -1379,10 +1387,10 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-family: "robotoregular";
-  font-weight: 500;
+  font-weight: 700;
   color: #5f5f5f;
-  font-size: 16px;
-  margin: 10px 0px 2px 10px;
+  font-size: 15px;
+  margin: 5px 0px 2px 10px;
 }
 
 .dst__3__prc3 {
