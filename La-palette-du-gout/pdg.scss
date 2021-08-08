@@ -73,7 +73,7 @@ body {
         }
     }
     &__name {
-        font-family:'shrikhand';
+        font-family:$ftfm2;
         font-size: 35px;
         margin-right: 57px;
     }
@@ -113,7 +113,7 @@ body {
          
 
         &__namresto{
-            font-family: 'shrikhand';
+            font-family: $ftfm2;
             font-size: 30px;
             margin-left: 24px;
            
@@ -201,7 +201,7 @@ body {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        height: 85px;
+        height: 75px;
         width: 370px;
         border: 2px solid white;
         box-shadow: $bsw;
@@ -246,7 +246,7 @@ body {
                 justify-content:center;
                 align-items: center;
                 left:101%;
-                bottom:75%;
+                bottom:101%;
                 width: 80px;
                 border:2px solid $clr-prim ;
                 border-top-right-radius: 20px;
@@ -290,7 +290,7 @@ body {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        height: 85px;
+        height: 75px;
         width: 370px;
         border: 2px solid white;
         box-shadow: $bsw;
@@ -321,7 +321,7 @@ body {
              &__prc2{
                   color: black;
                   height: 15px;
-                  justify-self: flex-end;
+                  margin-left: 10px;
                   font-weight:700;
                }
 
@@ -331,7 +331,7 @@ body {
                 justify-content:center;
                 align-items: center;
                 left:101%;
-                bottom:75%;
+                bottom:101%;
                 height:85px;
                 width: 80px;
                 border:2px solid $clr-prim ;
@@ -377,7 +377,7 @@ body {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        height: 85px;
+        height: 75px;
         width: 370px;
         border: 2px solid white;
         box-shadow: $bsw;
@@ -419,12 +419,11 @@ body {
 
              &__prc3{
                  display:block;
-                  color: black;
-                  height: 15px;
-                  width: 30px;
-                   background:white;
-                  justify-self: flex-end;
-                  font-weight:700;
+                 color: black;
+                 height: 15px;
+                  background:white;
+                 margin-left: 10px;
+                 font-weight:700;
                    
                  }
 
@@ -434,7 +433,7 @@ body {
                 justify-content:center;
                 align-items: center;
                 left:101%;
-                bottom:75%;
+                bottom: 101%;
                 width: 80px;
                 border:2px solid $clr-prim ;
                 border-top-right-radius: 20px;
@@ -1274,7 +1273,7 @@ body {
 
         &__nom{
             margin: 30px 0px 20px 30px;
-            font-family: 'shrikhand' ;
+            font-family:$ftfm2;
             font-size: 20px;
         }
         
