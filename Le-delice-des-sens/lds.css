@@ -238,7 +238,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 85px;
+  height: 65px;
   width: 370px;
   border: 2px solid white;
   -webkit-box-shadow: 6px 6px 6px #a7a5a5;
@@ -272,7 +272,7 @@ body {
   font-weight: 500;
   color: #5f5f5f;
   font-size: 16px;
-  margin: 10px 0px 2px 10px;
+  margin: 5px 0px 2px 10px;
 }
 
 .entrmn__1__prc {
