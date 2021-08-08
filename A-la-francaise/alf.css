@@ -129,7 +129,7 @@ body {
 }
 
 .carte__mennam__namresto {
-  font-family: "shrikhandregular";
+  font-family: 'shrikhand';
   font-size: 30px;
   margin-left: 20px;
 }
@@ -192,7 +192,7 @@ body {
   margin: 0px 0px 3px 20px;
   color: #5f5f5f;
   font-size: 20px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 600;
   color: #5f5f5f;
 }
@@ -251,7 +251,7 @@ body {
 
 .entrmn__1__tpa {
   width: 250px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 16px;
   margin: 15px 0px 2px 10px;
 }
@@ -267,7 +267,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 700;
   color: #5f5f5f;
   font-size: 15px;
@@ -375,7 +375,7 @@ body {
 
 .entrmn__2__vla {
   width: 290px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 16px;
   margin: 10px 0px 2px 10px;
 }
@@ -391,7 +391,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 700;
   color: #5f5f5f;
   font-size: 15px;
@@ -498,7 +498,7 @@ body {
 
 .entrmn__3__so {
   width: 290px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 16px;
   margin: 15px 0px 2px 10px;
 }
@@ -514,7 +514,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 700;
   color: #5f5f5f;
   font-size: 15px;
@@ -617,7 +617,7 @@ body {
   margin: 0px 0px 3px 20px;
   color: #5f5f5f;
   font-size: 20px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 600;
   color: #5f5f5f;
 }
@@ -676,7 +676,7 @@ body {
 
 .plt__1__csj {
   width: 250px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 16px;
   margin: 15px 0px 2px 10px;
 }
@@ -692,7 +692,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 700;
   color: #5f5f5f;
   font-size: 15px;
@@ -811,7 +811,7 @@ body {
 
 .plt__2__mdc {
   width: 270px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 16px;
   margin: 15px 0px 2px 10px;
 }
@@ -824,7 +824,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 700;
   color: #5f5f5f;
   font-size: 15px;
@@ -943,7 +943,7 @@ body {
 
 .plt__3__piv {
   width: 250px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 16px;
   margin: 15px 0px 2px 10px;
 }
@@ -959,7 +959,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 700;
   color: #5f5f5f;
   font-size: 15px;
@@ -1074,7 +1074,7 @@ body {
   margin: 0px 0px 3px 20px;
   color: #5f5f5f;
   font-size: 20px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 600;
   color: #5f5f5f;
 }
@@ -1133,7 +1133,7 @@ body {
 
 .dst__1__pvg {
   width: 250px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 16px;
   margin: 15px 0px 2px 10px;
 }
@@ -1149,7 +1149,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 700;
   color: #5f5f5f;
   font-size: 15px;
@@ -1257,7 +1257,7 @@ body {
 
 .dst__2__fdc {
   width: 305px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 16px;
   margin: 15px 0px 2px 10px;
 }
@@ -1273,7 +1273,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 700;
   color: #5f5f5f;
   font-size: 15px;
@@ -1381,7 +1381,7 @@ body {
 
 .dst__3__mc {
   width: 250px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 16px;
   margin: 15px 0px 2px 10px;
 }
@@ -1397,7 +1397,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 700;
   color: #5f5f5f;
   font-size: 15px;
@@ -1534,7 +1534,7 @@ body {
 
 .infos__nom {
   margin: 30px 0px 20px 30px;
-  font-family: "shrikhandregular";
+  font-family: 'shrikhand';
   font-size: 20px;
 }
 
@@ -1558,7 +1558,7 @@ body {
 
 .infos__prop__pr {
   margin-left: 10px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 18px;
   font-weight: 600;
 }
@@ -1586,21 +1586,21 @@ body {
 .infos__part__dp {
   margin-left: 15px;
   margin-bottom: 5px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 18px;
   font-weight: 600;
 }
 
 .infos__Ment {
   margin-left: 32px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 18px;
   font-weight: 300;
 }
 
 .infos__cont {
   margin: 5px 0px 0px  32px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 18px;
   font-weight: 300;
   color: white;
