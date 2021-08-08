@@ -1,5 +1,5 @@
  @font-face {
-    font-family: 'robotoregular';
+    font-family: 'roboto';
     src: url('/font/roboto-regular-webfont.woff2') format('woff2'),
          url('/font/roboto-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -163,7 +163,7 @@ body {
         margin: 0px 0px 3px 20px;
         color: $clr-icn;
         font-size: 20px;
-        font-family:'robotoregular';
+        font-family:'roboto';
         font-weight: 600 ;
         color: $clr-icn;
            
@@ -204,7 +204,7 @@ body {
         animation: slide .5s  ease-in;
             &__tpa{
                 width: 250px;
-                font-family:'robotoregular';
+                font-family:'roboto';
                 font-size: 16px;
                 margin: 15px 0px 2px 10px;
              }
