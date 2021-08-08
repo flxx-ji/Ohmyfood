@@ -424,6 +424,7 @@ body {
                   background:white;
                  margin-left: 10px;
                  font-weight:700;
+                  
                    
                  }
 
@@ -463,12 +464,12 @@ body {
     .entrmn__3__sub{
         &__wd{
             position: relative;
-            right: 29px;
+            right: 17px;
 
         }
         &__dw{
             position: relative;
-            right: 48px;
+            right: 57px;
             opacity: 0;
         }
     }
@@ -551,7 +552,7 @@ body {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        height: 85px;
+        height: 75px;
         width: 370px;
         border: 2px solid white;
         box-shadow: $bsw;
@@ -597,7 +598,7 @@ body {
                 justify-content:center;
                 align-items: center;
                 left:101%;
-                bottom:75%;
+                bottom:102%;
                 width: 80px;
                 border:2px solid $clr-prim ;
                 border-top-right-radius: 20px;
@@ -621,12 +622,12 @@ body {
     .plt__1__sub{
         &__wd {
             position: relative;
-            right: 19px;
+            right: 10px;
         }
         &__dw{
             opacity: 0;
             position: relative;
-            left: -45px;
+            left: -69px;
         }
     }
 
@@ -664,7 +665,7 @@ body {
             display: flex;
             justify-content: flex-start;
             flex-direction: column;
-            height: 85px;
+            height: 75px;
             width: 370px;
             border: 2px solid white;
             box-shadow: $bsw;
@@ -705,7 +706,7 @@ body {
                         justify-content:center;
                         align-items: center;
                         left:101%;
-                        bottom:75%;
+                        bottom:102%;
                         width: 80px;
                         border:2px solid $clr-prim ;
                         border-top-right-radius: 20px;
@@ -729,12 +730,12 @@ body {
         .plt__2__sub{
             &__wd{
                 position: relative;
-                right:20px;
+                right:14px;
             }
              
             &__dw{
                 position: relative;
-                right: 38px;
+                right: 59px;
                 opacity: 0;
             }
         }
@@ -771,7 +772,7 @@ body {
                     display: flex;
                     justify-content: flex-start;
                     flex-direction: column;
-                    height: 85px;
+                    height: 75px;
                     width: 370px;
                     border: 2px solid white;
                     box-shadow: $bsw;
@@ -812,7 +813,7 @@ body {
                             justify-content:center;
                             align-items: center;
                             left:101%;
-                            bottom:80%;
+                            bottom:102%;
                             width: 80px;
                             border:2px solid $clr-prim ;
                             border-top-right-radius: 20px;
@@ -1193,12 +1194,12 @@ body {
         .dst__3__sub{
             &__wd{
                 position:relative;
-                right: 21px;
+                right: 16px;
 
             }
             &__dw{
                 position: relative;
-                right:46px;
+                right:51px;
                 opacity: 0;
             }
         }
