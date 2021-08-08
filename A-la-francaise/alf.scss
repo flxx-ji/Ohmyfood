@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'robotoregular';
-    src: url('font/roboto-regular-webfont.woff2') format('woff2'),
-         url('font/roboto-regular-webfont.woff') format('woff');
+    src: url('/font/roboto-regular-webfont.woff2') format('woff2'),
+         url('/font/roboto-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'shrikhandregular';
-    src: url('font/shrikhand-regular-webfont.woff2') format('woff2'),
-         url('font/shrikhand-regular-webfont.woff') format('woff');
+    src: url('/font/shrikhand-regular-webfont.woff2') format('woff2'),
+         url('/font/shrikhand-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -26,7 +26,10 @@ $clr-btn:rgb(253, 82, 210);
   $clr-prim:#39e2b2;
   $clr-new: #059e73;
   $bsw:6px 6px 6px rgb(167, 165, 165);
-  $ftfm:roboto;
+  $ftfm:'robotoregular';
+  $ftfm2:'shrikhandregular';
+
+   
   @keyframes slide{
       from {
           transform: translateY(-31px);
@@ -191,7 +194,7 @@ body {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        height: 85px;
+        height: 75px;
         width: 370px;
         border: 2px solid white;
         box-shadow:$bsw;
@@ -203,7 +206,8 @@ body {
             &__tpa{
                 width: 250px;
                 font-family: $ftfm;
-                margin: 10px 0px 2px 10px;
+                font-size: 16px;
+                margin: 15px 0px 2px 10px;
              }
              &__zo{
                 display: flex;
@@ -211,10 +215,10 @@ body {
                 width: 340px;
                 justify-content: space-between;
                 font-family: $ftfm;
-                font-weight: 500;
+                font-weight: 700;
                 color: $clr-icn;
-                font-size: 16px;
-                margin: 10px 0px 2px 10px;
+                font-size: 15px;
+                margin: 5px 0px 2px 10px;
               }
 
             &__prc{
@@ -230,7 +234,7 @@ body {
                     justify-content:center;
                     align-items: center;
                     left:101%;
-                    bottom:75%;
+                    bottom:101%;
                     width: 80px;
                     border:2px solid $clr-prim ;
                     border-top-right-radius: 20px;
@@ -274,7 +278,7 @@ body {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        height: 85px;
+        height: 75px;
         width: 370px;
         border: 2px solid white;
         box-shadow: $bsw;
@@ -286,6 +290,7 @@ body {
             &__vla{
                 width: 290px;
                 font-family: $ftfm;
+                font-size: 16px;
                 margin: 10px 0px 2px 10px;
                 
             }
@@ -296,10 +301,10 @@ body {
                 width: 340px;
                 justify-content: space-between;
                 font-family: $ftfm;
-                font-weight: 500;
+                font-weight: 700;
                 color: $clr-icn;
-                font-size: 16px;
-                margin: 10px 0px 2px 10px;
+                font-size: 15px;
+                margin: 5px 0px 2px 10px;
             }
 
              &__prc2{
@@ -314,7 +319,7 @@ body {
                 justify-content:center;
                 align-items: center;
                 left:101%;
-                bottom:75%;
+                bottom:101%;
                 width: 80px;
                 border:2px solid $clr-prim ;
                 border-top-right-radius: 20px;
@@ -359,7 +364,7 @@ body {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        height: 85px;
+        height: 75px;
         width: 370px;
         border: 2px solid white;
         box-shadow: $bsw;
@@ -371,7 +376,8 @@ body {
             &__so{
                 width: 290px;
                 font-family: $ftfm;
-                margin: 10px 0px 2px 10px;
+                font-size: 16px;
+                margin: 15px 0px 2px 10px;
                 
             }
 
@@ -381,10 +387,10 @@ body {
                 width: 340px;
                 justify-content: space-between;
                 font-family: $ftfm;
-                font-weight: 500;
+                font-weight: 700;
                 color: $clr-icn;
-                font-size: 16px;
-                margin: 10px 0px 2px 10px;
+                font-size: 15px;
+                margin: 5px 0px 2px 10px;
               }
 
             &__prc3{
@@ -399,7 +405,7 @@ body {
                 justify-content:center;
                 align-items: center;
                 left:101%;
-                bottom:75%;
+                bottom:101%;
                 width: 80px;
                 border:2px solid $clr-prim ;
                 border-top-right-radius: 20px;
@@ -482,7 +488,7 @@ body {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        height: 85px;
+        height: 75px;
         width: 370px;
         border: 2px solid white;
         box-shadow: $bsw;
@@ -494,7 +500,8 @@ body {
             &__csj{
                 width: 250px;
                 font-family: $ftfm;
-                margin: 10px 0px 2px 10px;
+                font-size: 16px;
+                margin: 15px 0px 2px 10px;
              }
 
             &__pdp{
@@ -503,10 +510,10 @@ body {
                 width: 350px;
                 justify-content: space-between;
                 font-family: $ftfm;
-                font-weight: 500;
+                font-weight: 700;
                 color: $clr-icn;
-                font-size: 16px;
-                margin:10px 0px 2px 7px;
+                font-size: 15px;
+                margin:5px 0px 2px 7px;
               }
 
              &__prc{
@@ -522,7 +529,7 @@ body {
                     justify-content:center;
                     align-items: center;
                     left:101%;
-                    bottom:75%;
+                    bottom:101%;
                     width: 80px;
                     border:2px solid $clr-prim ;
                     border-top-right-radius: 20px;
@@ -542,11 +549,13 @@ body {
                  }
     }
        .plt__1__sub{
-           &__wd{
-               position: relative;
-               right:74%;
-               width: 0px;
-           }
+                position: relative;
+                right: 15px;
+        //    &__wd{
+        //        position: relative;
+        //        right:74%;
+        //        width: 0px;
+        //    }
            &__dw{
                position: relative;
                right:60px;
@@ -594,7 +603,7 @@ body {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        height: 85px;
+        height: 75px;
         width: 370px;
         border: 2px solid white;
         box-shadow: $bsw;
@@ -606,7 +615,8 @@ body {
             &__mdc{
                 width: 270px;
                 font-family: $ftfm;
-                margin: 10px 0px 2px 10px;
+                font-size: 16px;
+                margin: 15px 0px 2px 10px;
                 }
 
             &__ppt{
@@ -614,10 +624,10 @@ body {
                 width: 340px;
                 justify-content: space-between;
                 font-family: $ftfm;
-                font-weight: 500;
+                font-weight: 700;
                 color: $clr-icn;
-                font-size: 16px;
-                margin:10px 0px 2px 10px;
+                font-size: 15px;
+                margin:5px 0px 2px 10px;
                 }
                 &__prc2{
                     color: black;
@@ -632,7 +642,7 @@ body {
                     justify-content:center;
                     align-items: center;
                     left:101%;
-                    bottom:75%;
+                    bottom:101%;
                     width: 80px;
                     border:2px solid $clr-prim ;
                     border-top-right-radius: 20px;
@@ -702,7 +712,7 @@ body {
                     display: flex;
                     justify-content: flex-start;
                     flex-direction: column;
-                    height: 85px;
+                    height: 75px;
                     width: 370px;
                     border: 2px solid white;
                     box-shadow: $bsw;
@@ -714,7 +724,8 @@ body {
                         &__piv{
                              width: 250px;
                             font-family: $ftfm;
-                            margin: 12px 0px 2px 10px;
+                            font-size: 16px;
+                            margin: 15px 0px 2px 10px;
                         }
             
                         &__gal{
@@ -723,10 +734,10 @@ body {
                             width: 340px;
                             justify-content: space-between;
                             font-family: $ftfm;
-                            font-weight: 500;
+                            font-weight: 700;
                             color: $clr-icn;
-                            font-size: 16px;
-                            margin:7px 0px 2px 10px;
+                            font-size: 15px;
+                            margin:5px 0px 2px 10px;
                           }
                         &__prc3{
                               color: black;
@@ -741,7 +752,7 @@ body {
                                 justify-content:center;
                                 align-items: center;
                                 left:101%;
-                                bottom:76%;
+                                bottom:101%;
                                 width: 80px;
                                 border:2px solid $clr-prim ;
                                 border-top-right-radius: 20px;
@@ -865,7 +876,8 @@ body {
             &__pvg{
                 width: 250px;
                 font-family: $ftfm;
-                margin: 10px 0px 2px 10px;
+                font-size: 16px;
+                margin: 15px 0px 2px 10px;
             }
 
             &__pdn{
@@ -874,10 +886,10 @@ body {
                 width: 340px;
                 justify-content: space-between;
                 font-family: $ftfm;
-                font-weight: 500;
+                font-weight: 700;
                 color: $clr-icn;
-                font-size: 16px;
-                margin:6px 0px 2px 10px;
+                font-size: 15px;
+                margin:5px 0px 2px 10px;
             } 
 
              &__prc{
@@ -893,7 +905,7 @@ body {
                     justify-content:center;
                     align-items: center;
                     left:101%;
-                    bottom:90%;
+                    bottom:101%;
                     width: 80px;
                     border:2px solid $clr-prim ;
                     border-top-right-radius: 20px;
@@ -949,7 +961,8 @@ body {
                     &__fdc{
                          width: 305px;
                         font-family: $ftfm;
-                        margin: 10px 0px 2px 10px;
+                        font-size: 16px;
+                        margin: 15px 0px 2px 10px;
                      }
                      &__rev2{
                         display: flex;
@@ -957,10 +970,10 @@ body {
                         width: 340px;
                         justify-content: space-between;
                         font-family: $ftfm;
-                        font-weight: 500;
+                        font-weight: 700;
                         color: $clr-icn;
-                        font-size: 16px;
-                        margin:6px 0px 2px 10px;
+                        font-size: 15px;
+                        margin:5px 0px 2px 10px;
                       }
                       &__prc2{
                           color: black;
@@ -975,7 +988,7 @@ body {
                             justify-content:center;
                             align-items: center;
                             left:101%;
-                            bottom:90%;
+                            bottom:101%;
                             width: 80px;
                             border:2px solid $clr-prim ;
                             border-top-right-radius: 20px;
@@ -1030,7 +1043,8 @@ body {
                     &__mc{
                          width: 250px;
                         font-family: $ftfm;
-                        margin: 10px 0px 2px 10px;
+                        font-size: 16px;
+                        margin: 15px 0px 2px 10px;
                      }
         
                     &__mpa{
@@ -1039,10 +1053,10 @@ body {
                         width: 340px;
                         justify-content: space-between;
                         font-family: $ftfm;
-                        font-weight: 500;
+                        font-weight: 700;
                         color: $clr-icn;
-                        font-size: 16px;
-                        margin:6px 0px 2px 10px;
+                        font-size: 15px;
+                        margin:5px 0px 2px 10px;
                       }
         
                      &__prc3{
@@ -1059,7 +1073,7 @@ body {
                             justify-content:center;
                             align-items: center;
                             left:101%;
-                            bottom:88%;
+                            bottom:101%;
                             width: 80px;
                             border:2px solid $clr-prim ;
                             border-top-right-radius: 20px;

@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'robotoregular';
-  src: url("font/roboto-regular-webfont.woff2") format("woff2"), url("font/roboto-regular-webfont.woff") format("woff");
+  src: url("/font/roboto-regular-webfont.woff2") format("woff2"), url("/font/roboto-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'shrikhandregular';
-  src: url("font/shrikhand-regular-webfont.woff2") format("woff2"), url("font/shrikhand-regular-webfont.woff") format("woff");
+  src: url("/font/shrikhand-regular-webfont.woff2") format("woff2"), url("/font/shrikhand-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -192,7 +192,7 @@ body {
   margin: 0px 0px 3px 20px;
   color: #5f5f5f;
   font-size: 20px;
-  font-family: roboto;
+  font-family: "robotoregular";
   font-weight: 600;
   color: #5f5f5f;
 }
@@ -236,7 +236,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 85px;
+  height: 75px;
   width: 370px;
   border: 2px solid white;
   -webkit-box-shadow: 6px 6px 6px #a7a5a5;
@@ -251,8 +251,9 @@ body {
 
 .entrmn__1__tpa {
   width: 250px;
-  font-family: roboto;
-  margin: 10px 0px 2px 10px;
+  font-family: "robotoregular";
+  font-size: 16px;
+  margin: 15px 0px 2px 10px;
 }
 
 .entrmn__1__zo {
@@ -266,11 +267,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: roboto;
-  font-weight: 500;
+  font-family: "robotoregular";
+  font-weight: 700;
   color: #5f5f5f;
-  font-size: 16px;
-  margin: 10px 0px 2px 10px;
+  font-size: 15px;
+  margin: 5px 0px 2px 10px;
 }
 
 .entrmn__1__prc {
@@ -293,7 +294,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   left: 101%;
-  bottom: 75%;
+  bottom: 101%;
   width: 80px;
   border: 2px solid #39e2b2;
   border-top-right-radius: 20px;
@@ -359,7 +360,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 85px;
+  height: 75px;
   width: 370px;
   border: 2px solid white;
   -webkit-box-shadow: 6px 6px 6px #a7a5a5;
@@ -374,7 +375,8 @@ body {
 
 .entrmn__2__vla {
   width: 290px;
-  font-family: roboto;
+  font-family: "robotoregular";
+  font-size: 16px;
   margin: 10px 0px 2px 10px;
 }
 
@@ -389,11 +391,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: roboto;
-  font-weight: 500;
+  font-family: "robotoregular";
+  font-weight: 700;
   color: #5f5f5f;
-  font-size: 16px;
-  margin: 10px 0px 2px 10px;
+  font-size: 15px;
+  margin: 5px 0px 2px 10px;
 }
 
 .entrmn__2__prc2 {
@@ -415,7 +417,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   left: 101%;
-  bottom: 75%;
+  bottom: 101%;
   width: 80px;
   border: 2px solid #39e2b2;
   border-top-right-radius: 20px;
@@ -481,7 +483,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 85px;
+  height: 75px;
   width: 370px;
   border: 2px solid white;
   -webkit-box-shadow: 6px 6px 6px #a7a5a5;
@@ -496,8 +498,9 @@ body {
 
 .entrmn__3__so {
   width: 290px;
-  font-family: roboto;
-  margin: 10px 0px 2px 10px;
+  font-family: "robotoregular";
+  font-size: 16px;
+  margin: 15px 0px 2px 10px;
 }
 
 .entrmn__3__rev {
@@ -511,11 +514,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: roboto;
-  font-weight: 500;
+  font-family: "robotoregular";
+  font-weight: 700;
   color: #5f5f5f;
-  font-size: 16px;
-  margin: 10px 0px 2px 10px;
+  font-size: 15px;
+  margin: 5px 0px 2px 10px;
 }
 
 .entrmn__3__prc3 {
@@ -537,7 +540,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   left: 101%;
-  bottom: 75%;
+  bottom: 101%;
   width: 80px;
   border: 2px solid #39e2b2;
   border-top-right-radius: 20px;
@@ -614,7 +617,7 @@ body {
   margin: 0px 0px 3px 20px;
   color: #5f5f5f;
   font-size: 20px;
-  font-family: roboto;
+  font-family: "robotoregular";
   font-weight: 600;
   color: #5f5f5f;
 }
@@ -658,7 +661,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 85px;
+  height: 75px;
   width: 370px;
   border: 2px solid white;
   -webkit-box-shadow: 6px 6px 6px #a7a5a5;
@@ -673,8 +676,9 @@ body {
 
 .plt__1__csj {
   width: 250px;
-  font-family: roboto;
-  margin: 10px 0px 2px 10px;
+  font-family: "robotoregular";
+  font-size: 16px;
+  margin: 15px 0px 2px 10px;
 }
 
 .plt__1__pdp {
@@ -688,11 +692,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: roboto;
-  font-weight: 500;
+  font-family: "robotoregular";
+  font-weight: 700;
   color: #5f5f5f;
-  font-size: 16px;
-  margin: 10px 0px 2px 7px;
+  font-size: 15px;
+  margin: 5px 0px 2px 7px;
 }
 
 .plt__1__prc {
@@ -715,7 +719,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   left: 101%;
-  bottom: 75%;
+  bottom: 101%;
   width: 80px;
   border: 2px solid #39e2b2;
   border-top-right-radius: 20px;
@@ -742,10 +746,9 @@ body {
           transform: rotate(-360deg);
 }
 
-.plt .plt__1__sub__wd {
+.plt .plt__1__sub {
   position: relative;
-  right: 74%;
-  width: 0px;
+  right: 15px;
 }
 
 .plt .plt__1__sub__dw {
@@ -793,7 +796,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 85px;
+  height: 75px;
   width: 370px;
   border: 2px solid white;
   -webkit-box-shadow: 6px 6px 6px #a7a5a5;
@@ -808,8 +811,9 @@ body {
 
 .plt__2__mdc {
   width: 270px;
-  font-family: roboto;
-  margin: 10px 0px 2px 10px;
+  font-family: "robotoregular";
+  font-size: 16px;
+  margin: 15px 0px 2px 10px;
 }
 
 .plt__2__ppt {
@@ -820,11 +824,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: roboto;
-  font-weight: 500;
+  font-family: "robotoregular";
+  font-weight: 700;
   color: #5f5f5f;
-  font-size: 16px;
-  margin: 10px 0px 2px 10px;
+  font-size: 15px;
+  margin: 5px 0px 2px 10px;
 }
 
 .plt__2__prc2 {
@@ -847,7 +851,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   left: 101%;
-  bottom: 75%;
+  bottom: 101%;
   width: 80px;
   border: 2px solid #39e2b2;
   border-top-right-radius: 20px;
@@ -924,7 +928,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 85px;
+  height: 75px;
   width: 370px;
   border: 2px solid white;
   -webkit-box-shadow: 6px 6px 6px #a7a5a5;
@@ -939,8 +943,9 @@ body {
 
 .plt__3__piv {
   width: 250px;
-  font-family: roboto;
-  margin: 12px 0px 2px 10px;
+  font-family: "robotoregular";
+  font-size: 16px;
+  margin: 15px 0px 2px 10px;
 }
 
 .plt__3__gal {
@@ -954,11 +959,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: roboto;
-  font-weight: 500;
+  font-family: "robotoregular";
+  font-weight: 700;
   color: #5f5f5f;
-  font-size: 16px;
-  margin: 7px 0px 2px 10px;
+  font-size: 15px;
+  margin: 5px 0px 2px 10px;
 }
 
 .plt__3__prc3 {
@@ -981,7 +986,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   left: 101%;
-  bottom: 76%;
+  bottom: 101%;
   width: 80px;
   border: 2px solid #39e2b2;
   border-top-right-radius: 20px;
@@ -1069,7 +1074,7 @@ body {
   margin: 0px 0px 3px 20px;
   color: #5f5f5f;
   font-size: 20px;
-  font-family: roboto;
+  font-family: "robotoregular";
   font-weight: 600;
   color: #5f5f5f;
 }
@@ -1128,8 +1133,9 @@ body {
 
 .dst__1__pvg {
   width: 250px;
-  font-family: roboto;
-  margin: 10px 0px 2px 10px;
+  font-family: "robotoregular";
+  font-size: 16px;
+  margin: 15px 0px 2px 10px;
 }
 
 .dst__1__pdn {
@@ -1143,11 +1149,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: roboto;
-  font-weight: 500;
+  font-family: "robotoregular";
+  font-weight: 700;
   color: #5f5f5f;
-  font-size: 16px;
-  margin: 6px 0px 2px 10px;
+  font-size: 15px;
+  margin: 5px 0px 2px 10px;
 }
 
 .dst__1__prc {
@@ -1170,7 +1176,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   left: 101%;
-  bottom: 90%;
+  bottom: 101%;
   width: 80px;
   border: 2px solid #39e2b2;
   border-top-right-radius: 20px;
@@ -1251,8 +1257,9 @@ body {
 
 .dst__2__fdc {
   width: 305px;
-  font-family: roboto;
-  margin: 10px 0px 2px 10px;
+  font-family: "robotoregular";
+  font-size: 16px;
+  margin: 15px 0px 2px 10px;
 }
 
 .dst__2__rev2 {
@@ -1266,11 +1273,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: roboto;
-  font-weight: 500;
+  font-family: "robotoregular";
+  font-weight: 700;
   color: #5f5f5f;
-  font-size: 16px;
-  margin: 6px 0px 2px 10px;
+  font-size: 15px;
+  margin: 5px 0px 2px 10px;
 }
 
 .dst__2__prc2 {
@@ -1293,7 +1300,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   left: 101%;
-  bottom: 90%;
+  bottom: 101%;
   width: 80px;
   border: 2px solid #39e2b2;
   border-top-right-radius: 20px;
@@ -1374,8 +1381,9 @@ body {
 
 .dst__3__mc {
   width: 250px;
-  font-family: roboto;
-  margin: 10px 0px 2px 10px;
+  font-family: "robotoregular";
+  font-size: 16px;
+  margin: 15px 0px 2px 10px;
 }
 
 .dst__3__mpa {
@@ -1389,11 +1397,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: roboto;
-  font-weight: 500;
+  font-family: "robotoregular";
+  font-weight: 700;
   color: #5f5f5f;
-  font-size: 16px;
-  margin: 6px 0px 2px 10px;
+  font-size: 15px;
+  margin: 5px 0px 2px 10px;
 }
 
 .dst__3__prc3 {
@@ -1416,7 +1424,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   left: 101%;
-  bottom: 88%;
+  bottom: 101%;
   width: 80px;
   border: 2px solid #39e2b2;
   border-top-right-radius: 20px;
@@ -1550,7 +1558,7 @@ body {
 
 .infos__prop__pr {
   margin-left: 10px;
-  font-family: roboto;
+  font-family: "robotoregular";
   font-size: 18px;
   font-weight: 600;
 }
@@ -1578,21 +1586,21 @@ body {
 .infos__part__dp {
   margin-left: 15px;
   margin-bottom: 5px;
-  font-family: roboto;
+  font-family: "robotoregular";
   font-size: 18px;
   font-weight: 600;
 }
 
 .infos__Ment {
   margin-left: 32px;
-  font-family: roboto;
+  font-family: "robotoregular";
   font-size: 18px;
   font-weight: 300;
 }
 
 .infos__cont {
   margin: 5px 0px 0px  32px;
-  font-family: roboto;
+  font-family: "robotoregular";
   font-size: 18px;
   font-weight: 300;
   color: white;
