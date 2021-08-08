@@ -3,6 +3,7 @@
   src: url("/font/shrikhand-regular-webfont.woff2") format("woff2"), url("/font/shrikhand-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: auto;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
   src: url("/font/roboto-regular-webfont.woff2") format("woff2"), url("/font/roboto-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: auto;
 }
 
 @-webkit-keyframes slide {
