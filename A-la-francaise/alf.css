@@ -129,7 +129,7 @@ body {
 }
 
 .carte__mennam__namresto {
-  font-family: 'shrikhand';
+  font-family: "shrikhandregular";
   font-size: 30px;
   margin-left: 20px;
 }
@@ -1534,7 +1534,7 @@ body {
 
 .infos__nom {
   margin: 30px 0px 20px 30px;
-  font-family: 'shrikhand';
+  font-family: "shrikhandregular";
   font-size: 20px;
 }
 
