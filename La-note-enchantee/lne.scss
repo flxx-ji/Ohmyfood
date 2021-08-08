@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'robotoregular';
-    src: url('font/roboto-regular-webfont.woff2') format('woff2'),
-         url('font/roboto-regular-webfont.woff') format('woff');
+    src: url('/font/roboto-regular-webfont.woff2') format('woff2'),
+         url('/font/roboto-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -10,8 +10,8 @@
 
 @font-face {
     font-family: 'shrikhandregular';
-    src: url('font/shrikhand-regular-webfont.woff2') format('woff2'),
-         url('font/shrikhand-regular-webfont.woff') format('woff');
+    src: url('/font/shrikhand-regular-webfont.woff2') format('woff2'),
+         url('/font/shrikhand-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -21,7 +21,8 @@
   $clr-prim:#39e2b2;
   $clr-new: #059e73;
   $bsw:6px 6px 6px rgb(167, 165, 165);
-  $ftfm:roboto;
+  $ftfm:'robotoregular';
+  $ftfm2:'shrikhandregular';
 
 
   @keyframes slide{
@@ -67,7 +68,7 @@ body {
         }
     }
     &__name {
-        font-family: 'shrikhand';
+        font-family: $ftfm2;
         font-size: 35px;
         margin-right: 57px;
     }
@@ -107,7 +108,7 @@ body {
         margin-top:-52px;
 
         &__namresto{
-            font-family: 'shrikhand';
+            font-family:$ftfm2;
             font-size: 30px;
             margin-left: 20px;
            
@@ -190,7 +191,7 @@ body {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        height: 85px;
+        height: 75px;
         width: 370px;
         border: 2px solid white;
         box-shadow: $bsw;
@@ -202,20 +203,22 @@ body {
             &__rdg{
                 width: 250px;
                 font-family: $ftfm;
-                margin: 10px 0px 2px 10px;
+                font-size: 16px;
+                margin: 15px 0px 2px 10px;
                 
             }
 
             &__acc{
-                display: flex;
+                display:flex;
                 justify-content: center;
+                flex-direction: row;
                 width: 340px;
                 justify-content: space-between;
                 font-family: $ftfm;
-                font-weight: 500;
+                font-weight: 700;
                 color: $clr-icn;
-                font-size: 16px;
-                margin: 10px 0px 2px 10px;
+                font-size: 15px;
+                margin: 5px 0px 2px 10px;
               }
 
             &__prc{
@@ -231,7 +234,7 @@ body {
                 justify-content:center;
                 align-items: center;
                 left:101%;
-                bottom:75%;
+                bottom:102%;
                 width: 80px;
                 border:2px solid $clr-prim ;
                 border-top-right-radius: 20px;
@@ -255,14 +258,12 @@ body {
 
      .entrmn__1__sub{
          &__wd{
-             position: relative;
-             right:14px;
-             
+              padding-right: 32px;
          }
 
          &__dw{
              position:relative;
-             right: 34px;
+             right: 69px;
              opacity: 0;
          }
      }
@@ -306,7 +307,7 @@ body {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        height: 85px;
+        height: 75px;
         width: 370px;
         border: 2px solid white;
         box-shadow: $bsw;
@@ -318,7 +319,8 @@ body {
             &__co{
                 width: 290px;
                 font-family: $ftfm;
-                margin: 10px 0px 2px 10px;
+                font-size: 16px;
+                margin: 15px 0px 2px 10px;
              }
 
             &__acc2{
@@ -327,10 +329,10 @@ body {
                 width: 340px;
                 justify-content: space-between;
                 font-family: $ftfm;
-                font-weight: 500;
+                font-weight: 700;
                 color: $clr-icn;
-                font-size: 16px;
-                margin: 10px 0px 2px 10px;
+                font-size: 15px;
+                margin: 5px 0px 2px 10px;
               }
 
             &__prc2{
@@ -345,7 +347,7 @@ body {
                 justify-content:center;
                 align-items: center;
                 left:101%;
-                bottom:75%;
+                bottom:102%;
                 width: 80px;
                 border:2px solid $clr-prim ;
                 border-top-right-radius: 20px;
@@ -387,7 +389,7 @@ body {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        height: 85px;
+        height: 75px;
         width: 370px;
         border: 2px solid white;
         box-shadow: $bsw;
@@ -399,7 +401,8 @@ body {
             &__hep{
                 width: 290px;
                 font-family: $ftfm;
-                margin: 10px 0px 2px 10px;
+                font-size: 16px;
+                margin: 15px 0px 2px 10px;
                 
             }
 
@@ -409,10 +412,10 @@ body {
                 width: 340px;
                 justify-content: space-between;
                 font-family: $ftfm;
-                font-weight: 500;
+                font-weight: 700;
                 color: $clr-icn;
-                font-size: 16px;
-                margin: 10px 0px 2px 10px;
+                font-size: 15px;
+                margin: 5px 0px 2px 10px;
               }
 
             &__prc3{
@@ -427,7 +430,7 @@ body {
                 justify-content:center;
                 align-items: center;
                 left:101%;
-                bottom:75%;
+                bottom:102%;
                 width: 80px;
                 border:2px solid $clr-prim ;
                 border-top-right-radius: 20px;
@@ -470,7 +473,7 @@ body {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        height: 85px;
+        height: 75px;
         width: 370px;
         border: 2px solid white;
         box-shadow: $bsw;
@@ -482,7 +485,8 @@ body {
             &__fgdc{
                 width: 290px;
                 font-family: $ftfm;
-                margin: 10px 0px 2px 10px;
+                font-size: 16px;
+                margin: 15px 0px 2px 10px;
                 
             }
 
@@ -492,10 +496,10 @@ body {
                 width: 340px;
                 justify-content: space-between;
                 font-family: $ftfm;
-                font-weight: 500;
+                font-weight: 700;
                 color: $clr-icn;
-                font-size: 16px;
-                margin: 10px 0px 2px 10px;
+                font-size: 15px;
+                margin: 5px 0px 2px 10px;
               }
 
             &__prc4{
@@ -510,7 +514,7 @@ body {
                 justify-content:center;
                 align-items: center;
                 left:101%;
-                bottom:75%;
+                bottom:102%;
                 width: 80px;
                 border:2px solid $clr-prim ;
                 border-top-right-radius: 20px;
@@ -592,7 +596,7 @@ body {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        height: 85px;
+        height: 75px;
         width: 370px;
         border: 2px solid white;
         box-shadow: $bsw;
@@ -605,7 +609,8 @@ body {
                  
                 width: 280px;
                 font-family: $ftfm;
-                margin: 10px 0px 10px 10px;
+                font-size: 16px;
+                margin: 15px 0px 10px 10px;
              }
 
             &__pcr{
@@ -614,10 +619,10 @@ body {
                 width: 340px;
                 justify-content: space-between;
                 font-family: $ftfm;
-                font-weight: 500;
+                font-weight: 700;
                 color: $clr-icn;
-                font-size: 16px;
-                margin:4px 0px 2px 10px;
+                font-size: 15px;
+                margin:5px 0px 2px 10px;
               }
 
             &__prc{
@@ -633,7 +638,7 @@ body {
                 justify-content:center;
                 align-items: center;
                 left:101%;
-                bottom:80%;
+                bottom:102%;
                 width: 80px;
                 border:2px solid $clr-prim ;
                 border-top-right-radius: 20px;
@@ -675,7 +680,7 @@ body {
                 display: flex;
                 justify-content: flex-start;
                 flex-direction: column;
-                height: 85px;
+                height: 75px;
                 width: 370px;
                 border: 2px solid white;
                 box-shadow: $bsw;
@@ -687,7 +692,8 @@ body {
                     &__lp{
                         width: 250px;
                         font-family: $ftfm;
-                        margin: 10px 0px 2px 10px;
+                        font-size: 16px;
+                        margin: 15px 0px 2px 10px;
                      }
         
                     &__ppd{
@@ -695,10 +701,10 @@ body {
                         width: 340px;
                         justify-content: space-between;
                         font-family: $ftfm;
-                        font-weight: 500;
+                        font-weight: 700;
                         color: $clr-icn;
-                        font-size: 16px;
-                        margin:10px 0px 2px 10px;
+                        font-size: 15px;
+                        margin:5px 0px 2px 10px;
                       }
         
                     &__prc2{
@@ -714,7 +720,7 @@ body {
                         justify-content:center;
                         align-items: center;
                         left:101%;
-                        bottom:75%;
+                        bottom:102%;
                         width: 80px;
                         border:2px solid $clr-prim ;
                         border-top-right-radius: 20px;
@@ -758,7 +764,7 @@ body {
                     display: flex;
                     justify-content: flex-start;
                     flex-direction: column;
-                    height: 85px;
+                    height: 75px;
                     width: 370px;
                     border: 2px solid white;
                     box-shadow: $bsw;
@@ -771,7 +777,8 @@ body {
                              
                             width: 250px;
                             font-family: $ftfm;
-                            margin: 10px 0px 2px 10px;
+                            font-size: 16px;
+                            margin: 15px 0px 2px 10px;
                             
                         }
             
@@ -781,10 +788,10 @@ body {
                             width: 340px;
                             justify-content: space-between;
                             font-family: $ftfm;
-                            font-weight: 500;
+                            font-weight: 700;
                             color: $clr-icn;
-                            font-size: 16px;
-                            margin:10px 0px 2px 10px;
+                            font-size: 15px;
+                            margin:5px 0px 2px 10px;
                         }
             
                         &__prc3{
@@ -801,7 +808,7 @@ body {
                             justify-content:center;
                             align-items: center;
                             left:101%;
-                            bottom:74%;
+                            bottom:102%;
                             width: 80px;
                             border:2px solid $clr-prim ;
                             border-top-right-radius: 20px;
@@ -900,21 +907,22 @@ body {
                  
                 width: 260px;
                 font-family: $ftfm;
-                margin: 10px 0px 3px 10px;
+                font-size: 16px;
+                margin: 15px 0px 3px 10px;
                 
             }
 
             &__gcs{
                 display: flex;
-                justify-content: center;
+                // justify-content: center;
                 flex-direction: row;
                 width: 387px;
                 justify-content: space-between;
                 font-family: $ftfm;
-                font-weight: 500;
+                font-weight: 700;
                 color: $clr-icn;
-                font-size: 16px;
-                margin:10px 0px 2px 10px;
+                font-size: 15px;
+                margin:5px 0px 2px 10px;
                 } 
 
             &__prc{
@@ -931,7 +939,7 @@ body {
                 justify-content:center;
                 align-items: center;
                 left:101%;
-                bottom:92%;
+                bottom:102%;
                 width: 80px;
                 border:2px solid $clr-prim ;
                 border-top-right-radius: 20px;
@@ -955,14 +963,18 @@ body {
 
 
         .dst__1__sub{
-            &__wd{
-                position: relative;
-                right:32px
-            }
+                //   position: relative;
+                //   right: 43px;
+                 padding-right: 80px;
+            // &__wd{
+                  
+            //     position: relative;
+            //     right:0px
+            // }
             &__dw{
                 position: relative;
-                right:57px;
-                opacity: 0;
+                right:68px;
+                 opacity: 0;
             }
         }
 
@@ -1011,7 +1023,8 @@ body {
                          
                         width: 250px;
                         font-family: $ftfm;
-                        margin: 10px 0px 2px 10px;
+                        font-size: 16px;
+                        margin: 15px 0px 2px 10px;
                      }
         
                     &__cdc{
@@ -1020,10 +1033,10 @@ body {
                         width: 340px;
                         justify-content: space-between;
                         font-family: $ftfm;
-                        font-weight: 500;
+                        font-weight: 700;
                         color: $clr-icn;
-                        font-size: 16px;
-                        margin:6px 0px 2px 10px;
+                        font-size: 15px;
+                        margin:5px 0px 2px 10px;
                       }
         
                     &__prc2{
@@ -1040,7 +1053,7 @@ body {
                         justify-content:center;
                         align-items: center;
                         left:101%;
-                        bottom:90%;
+                        bottom:102%;
                         width: 80px;
                         border:2px solid $clr-prim ;
                         border-top-right-radius: 20px;
@@ -1099,7 +1112,8 @@ body {
                          
                         width: 250px;
                         font-family: $ftfm;
-                        margin: 10px 0px 2px 10px;
+                        font-size: 16px;
+                        margin: 15px 0px 2px 10px;
                         
                     }
         
@@ -1109,10 +1123,10 @@ body {
                         width: 340px;
                         justify-content: space-between;
                         font-family: $ftfm;
-                        font-weight: 500;
+                        font-weight: 700;
                         color: $clr-icn;
-                        font-size: 16px;
-                        margin:6px 0px 2px 10px;
+                        font-size: 15px;
+                        margin:5px 0px 2px 10px;
                       }
         
                     &__prc3{
@@ -1129,7 +1143,7 @@ body {
                         justify-content:center;
                         align-items: center;
                         left:101%;
-                        bottom:90%;
+                        bottom:102%;
                         width: 80px;
                         border:2px solid $clr-prim ;
                         border-top-right-radius: 20px;
