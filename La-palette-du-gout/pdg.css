@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'robotoregular';
-  src: url("/font/roboto-regular-webfont.woff2") format("woff2"), url("/font/roboto-regular-webfont.woff") format("woff");
+  font-family: 'roboto';
+  src: url("../font/roboto-regular-webfont.woff2") format("woff2"), url("../font/roboto-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: auto;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'shrikhandregular';
-  src: url("/font/shrikhand-regular-webfont.woff2") format("woff2"), url("/font/shrikhand-regular-webfont.woff") format("woff");
+  src: url("../font/shrikhand-regular-webfont.woff2") format("woff2"), url("../font/shrikhand-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: auto;
@@ -97,7 +97,7 @@ body {
 }
 
 .title__name {
-  font-family: "shrikhandregular";
+  font-family: 'shrikhand';
   font-size: 35px;
   margin-right: 57px;
 }
@@ -135,7 +135,7 @@ body {
 }
 
 .carte__mennam__namresto {
-  font-family: "shrikhandregular";
+  font-family: 'shrikhand';
   font-size: 30px;
   margin-left: 24px;
 }
@@ -198,7 +198,7 @@ body {
   margin: 0px 0px 3px 20px;
   color: #5f5f5f;
   font-size: 20px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 600;
   color: #5f5f5f;
 }
@@ -257,7 +257,7 @@ body {
 
 .entrmn__1__fe {
   width: 250px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 16px;
   margin: 15px 0px 2px 10px;
 }
@@ -273,7 +273,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 700;
   color: #5f5f5f;
   font-size: 15px;
@@ -382,7 +382,7 @@ body {
 
 .entrmn__2__fgmc {
   width: 290px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 16px;
   margin: 15px 0px 2px 10px;
 }
@@ -398,7 +398,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 700;
   color: #5f5f5f;
   font-size: 15px;
@@ -506,7 +506,7 @@ body {
 
 .entrmn__3__oap {
   width: 290px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 16px;
   margin: 15px 0px 2px 10px;
 }
@@ -522,7 +522,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 700;
   color: #5f5f5f;
   font-size: 15px;
@@ -645,7 +645,7 @@ body {
   margin: 0px 0px 3px 20px;
   color: #5f5f5f;
   font-size: 20px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 600;
   color: #5f5f5f;
 }
@@ -704,7 +704,7 @@ body {
 
 .plt__1__fbh {
   width: 250px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 16px;
   margin: 15px 0px 2px 10px;
 }
@@ -721,7 +721,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 700;
   color: #5f5f5f;
   font-size: 15px;
@@ -849,7 +849,7 @@ body {
 
 .plt__2__pqb {
   width: 270px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 16px;
   margin: 15px 0px 2px 10px;
 }
@@ -862,7 +862,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 700;
   color: #5f5f5f;
   font-size: 15px;
@@ -988,7 +988,7 @@ body {
 
 .plt__3__fdt {
   width: 250px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 16px;
   margin: 15px 0px 2px 10px;
 }
@@ -1004,7 +1004,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 700;
   color: #5f5f5f;
   font-size: 16px;
@@ -1107,7 +1107,7 @@ body {
   margin: 0px 0px 3px 20px;
   color: #5f5f5f;
   font-size: 20px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 600;
   color: #5f5f5f;
 }
@@ -1166,7 +1166,7 @@ body {
 
 .dst__1__prbr {
   width: 250px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 16px;
   margin: 15px 0px 2px 10px;
 }
@@ -1182,7 +1182,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 700;
   color: #5f5f5f;
   font-size: 15px;
@@ -1289,7 +1289,7 @@ body {
 
 .dst__2__mce {
   width: 320px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 16px;
   margin: 15px 0px 2px 10px;
 }
@@ -1305,7 +1305,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 700;
   color: #5f5f5f;
   font-size: 15px;
@@ -1434,7 +1434,7 @@ body {
 
 .dst__3__mac {
   width: 250px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 16px;
   margin: 15px 0px 2px 10px;
 }
@@ -1450,7 +1450,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-weight: 700;
   color: #5f5f5f;
   font-size: 15px;
@@ -1607,7 +1607,7 @@ body {
 
 .infos__nom {
   margin: 30px 0px 20px 30px;
-  font-family: "shrikhandregular";
+  font-family: 'shrikhand';
   font-size: 20px;
 }
 
@@ -1631,7 +1631,7 @@ body {
 
 .infos__prop__pr {
   margin-left: 10px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 18px;
   font-weight: 600;
 }
@@ -1659,21 +1659,21 @@ body {
 .infos__part__dp {
   margin-left: 15px;
   margin-bottom: 5px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 18px;
   font-weight: 600;
 }
 
 .infos__Ment {
   margin-left: 32px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 18px;
   font-weight: 300;
 }
 
 .infos__cont {
   margin: 5px 0px 0px  32px;
-  font-family: "robotoregular";
+  font-family: 'roboto';
   font-size: 18px;
   font-weight: 300;
   color: white;

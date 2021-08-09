@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'robotoregular';
-    src: url('/font/roboto-regular-webfont.woff2') format('woff2'),
-         url('/font/roboto-regular-webfont.woff') format('woff');
+    font-family: 'roboto';
+    src: url('../font/roboto-regular-webfont.woff2') format('woff2'),
+         url('../font/roboto-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: auto;
@@ -11,8 +11,8 @@
 
 @font-face {
     font-family: 'shrikhandregular';
-    src: url('/font/shrikhand-regular-webfont.woff2') format('woff2'),
-         url('/font/shrikhand-regular-webfont.woff') format('woff');
+    src: url('../font/shrikhand-regular-webfont.woff2') format('woff2'),
+         url('../font/shrikhand-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: auto;
@@ -23,8 +23,7 @@
   $clr-prim:#39e2b2;
   $clr-new: #059e73;
   $bsw:6px 6px 6px rgb(167, 165, 165);
-  $ftfm:'robotoregular';
-  $ftfm2:'shrikhandregular';
+   
 
 
   @keyframes slide{
@@ -73,7 +72,7 @@ body {
         }
     }
     &__name {
-        font-family:$ftfm2;
+        font-family:'shrikhand';
         font-size: 35px;
         margin-right: 57px;
     }
@@ -113,7 +112,7 @@ body {
          
 
         &__namresto{
-            font-family: $ftfm2;
+            font-family:'shrikhand';
             font-size: 30px;
             margin-left: 24px;
            
@@ -165,7 +164,7 @@ body {
         margin: 0px 0px 3px 20px;
         color: $clr-icn;
         font-size: 20px;
-        font-family: $ftfm;
+        font-family:'roboto';
         font-weight: 600 ;
         color: $clr-icn
         
@@ -214,7 +213,7 @@ body {
         
             &__fe{
                 width: 250px;
-                font-family: $ftfm;
+                font-family:'roboto';
                 font-size: 16px;
                 margin: 15px 0px 2px 10px;
                  
@@ -224,7 +223,7 @@ body {
                     justify-content: center;
                     width: 340px;
                     justify-content: space-between;
-                    font-family: $ftfm;
+                    font-family:'roboto';
                     font-weight: 700;
                     color: $clr-icn;
                     font-size: 15px;
@@ -301,7 +300,7 @@ body {
         animation: slide .7s ease-in;
             &__fgmc{
                 width: 290px;
-                font-family: $ftfm;
+                font-family:'roboto';
                 font-size: 16px;
                 margin: 15px 0px 2px 10px;
             }
@@ -311,7 +310,7 @@ body {
                 justify-content: center;
                 width: 340px;
                 justify-content: space-between;
-                font-family: $ftfm;
+                font-family:'roboto';
                 font-weight: 700;
                 color: $clr-icn;
                 font-size: 15px;
@@ -394,7 +393,7 @@ body {
          
             &__oap{
                 width: 290px;
-                font-family: $ftfm;
+                font-family:'roboto';
                 font-size: 16px;
                 margin: 15px 0px 2px 10px;
                  
@@ -407,7 +406,7 @@ body {
                 justify-content: center;
                 width: 340px;
                 justify-content: space-between;
-                font-family: $ftfm;
+                font-family:'roboto';
                 font-weight: 700;
                 color: $clr-icn;
                 font-size: 15px;
@@ -522,7 +521,7 @@ body {
         margin: 0px 0px 3px 20px;
         color: $clr-icn;
         font-size: 20px;
-        font-family: $ftfm;
+        font-family:'roboto';
         font-weight: 600 ;
         color: $clr-icn
     }
@@ -563,7 +562,7 @@ body {
         cursor: pointer;
             &__fbh{
                 width: 250px;
-                font-family: $ftfm;
+                font-family:'roboto';
                 font-size: 16px;
                 margin: 15px 0px 2px 10px;
              }
@@ -575,7 +574,7 @@ body {
                 // top: 9px;
                 width: 360px;
                 justify-content: space-between;
-                font-family: $ftfm;
+                font-family:'roboto';
                 font-weight: 700;
                 color: $clr-icn;
                 font-size: 15px;
@@ -676,7 +675,7 @@ body {
             cursor: pointer;
                     &__pqb{
                         width: 270px;
-                        font-family: $ftfm;
+                        font-family:'roboto';
                         font-size: 16px;
                         margin: 15px 0px 2px 10px;
                      }
@@ -685,7 +684,7 @@ body {
                         display: flex;
                         width: 340px;
                         justify-content: space-between;
-                        font-family: $ftfm;
+                        font-family:'roboto';
                         font-weight: 700;
                         color: $clr-icn;
                         font-size: 15px;
@@ -783,7 +782,7 @@ body {
                     cursor: pointer;
                         &__fdt{
                              width: 250px;
-                            font-family: $ftfm;
+                            font-family:'roboto';
                             font-size: 16px;
                             margin: 15px 0px 2px 10px;
                         }
@@ -793,7 +792,7 @@ body {
                             justify-content: center;
                             width: 340px;
                             justify-content: space-between;
-                            font-family: $ftfm;
+                            font-family:'roboto';
                             font-weight: 700;
                             color: $clr-icn;
                             font-size: 16px;
@@ -874,7 +873,7 @@ body {
         margin: 0px 0px 3px 20px;
         color: $clr-icn;
         font-size: 20px;
-        font-family: $ftfm;
+        font-family:'roboto';
         font-weight: 600 ;
         color: $clr-icn;
     }
@@ -916,7 +915,7 @@ body {
         cursor: pointer;
             &__prbr{
                 width: 250px;
-                font-family: $ftfm;
+                font-family:'roboto';
                 font-size: 16px;
                 margin: 15px 0px 2px 10px;
              }
@@ -926,7 +925,7 @@ body {
                 justify-content: center;
                 width: 340px;
                 justify-content: space-between;
-                font-family: $ftfm;
+                font-family:'roboto';
                 font-weight: 700;
                 color: $clr-icn;
                 font-size: 15px;
@@ -1004,7 +1003,7 @@ body {
                 cursor: pointer;
                     &__mce{
                          width: 320px;
-                        font-family: $ftfm;
+                        font-family:'roboto';
                         font-size: 16px;
                         margin: 15px 0px 2px 10px;
                          
@@ -1015,7 +1014,7 @@ body {
                         justify-content: center;
                         width: 340px;
                         justify-content: space-between;
-                        font-family: $ftfm;
+                        font-family:'roboto';
                         font-weight: 700;
                         color: $clr-icn;
                         font-size: 15px;
@@ -1135,7 +1134,7 @@ body {
                 cursor: pointer;
                     &__mac{
                         width: 250px;
-                        font-family: $ftfm;
+                        font-family:'roboto';
                         font-size: 16px;
                         margin: 15px 0px 2px 10px;
                         
@@ -1146,7 +1145,7 @@ body {
                         justify-content: center;
                         width: 352px;
                         justify-content: space-between;
-                        font-family: $ftfm;
+                        font-family:'roboto';
                         font-weight: 700;
                         color: $clr-icn;
                         font-size: 15px;
@@ -1274,7 +1273,7 @@ body {
 
         &__nom{
             margin: 30px 0px 20px 30px;
-            font-family:$ftfm2;
+            font-family:'shrikhand';
             font-size: 20px;
         }
         
@@ -1291,7 +1290,7 @@ body {
 
                &__pr {
                 margin-left: 10px;
-                font-family: $ftfm;
+                font-family:'roboto';
                 font-size: 18px;
                 font-weight: 600;
                 }
@@ -1314,7 +1313,7 @@ body {
             &__dp {
                 margin-left: 15px;
                 margin-bottom: 5px;
-                font-family: $ftfm;
+                font-family:'roboto';
                 font-size: 18px;
                 font-weight: 600;
 
@@ -1323,7 +1322,7 @@ body {
         
         &__Ment{
                 margin-left: 32px;
-                font-family: $ftfm;
+                font-family:'roboto';
                 font-size: 18px;
                 font-weight: 300;
  
@@ -1332,7 +1331,7 @@ body {
 
         &__cont{
             margin:5px 0px 0px  32px;
-            font-family: $ftfm;
+            font-family:'roboto';
             font-size: 18px;
             font-weight: 300;
             color: white;
