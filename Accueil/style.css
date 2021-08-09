@@ -527,7 +527,7 @@ body {
   background: #9e4ed3;
   color: white;
   border-radius: 50%;
-  border: 2px solidrgb(158, 78, 211);
+  border: 2px solid rgb(158, 78, 211);
   height: 25px;
   width: 25px;
 }
